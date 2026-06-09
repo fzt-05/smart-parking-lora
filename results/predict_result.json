@@ -1,0 +1,12 @@
+{
+  "time": "08:00",
+  "weekday": "Monday",
+  "weather": "Sunny",
+  "current_enter_count": 45,
+  "current_leave_count": 12,
+  "current_occupancy_rate": 78,
+  "predicted_enter_count": 1,
+  "predicted_occupancy_rate": 219,
+  "congestion_level": "high",
+  "raw_model_output": "==========\n预测下一小时进入车辆数为 46 辆，预测下一小时停车场占用率为 76%。\n==========\nPrompt: 122 tokens, 830.543 tokens-per-sec\nGeneration: 25 tokens, 148.865 tokens-per-sec\nPeak memory: 1.219 GB"
+}
