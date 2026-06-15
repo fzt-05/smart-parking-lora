@@ -6,8 +6,8 @@ from pathlib import Path
 
 BASE_DIR = Path("/Users/fziteng/Documents/Code/python/smart-parking-lora")
 
-MODEL_PATH = BASE_DIR / "models" / "qwen2.5-0.5b-mlx"
-ADAPTER_PATH = BASE_DIR / "adapters" / "parking-lora"
+MODEL_PATH = BASE_DIR / "models" / "qwen2.5-3b-mlx"
+ADAPTER_PATH = BASE_DIR / "adapters" / "sinpa-qwen3b-lora"
 
 
 def build_prompt(time, weekday, weather, enter_count, leave_count, occupancy_rate):

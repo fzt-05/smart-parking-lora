@@ -2,9 +2,11 @@
 **/.DS_Store
 
 .venv/
+.idea/
 __pycache__/
 *.py[cod]
 
 # Large model and adapter weights should live outside Git
 # or be tracked with Git LFS if needed.
 *.safetensors
+*.npz
