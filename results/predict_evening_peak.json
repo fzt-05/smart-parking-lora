@@ -1,0 +1,39 @@
+{
+  "model": "Qwen2.5-3B-Instruct + LoRA",
+  "dataset": "SINPA",
+  "scene": "evening_peak",
+  "lot_id": "lot_1",
+  "history_steps": 12,
+  "future_steps": 12,
+  "input_history_availability": [
+    0.42,
+    0.39,
+    0.35,
+    0.32,
+    0.29,
+    0.25,
+    0.22,
+    0.19,
+    0.17,
+    0.15,
+    0.14,
+    0.13
+  ],
+  "predicted_availability": [
+    0.14,
+    0.14,
+    0.14,
+    0.14,
+    0.14,
+    0.14,
+    0.14,
+    0.14,
+    0.14,
+    0.14,
+    0.14,
+    0.14
+  ],
+  "predicted_occupancy_level": "high",
+  "congestion_penalty": 0.5,
+  "raw_model_output": "==========\n未来12个时间步的停车可用性预测为：[0.14, 0.14, 0.14, 0.14, 0.14, 0.14, 0.14, 0.14, 0.14, 0.14, 0.14, 0.14]。\n==========\nPrompt: 361 tokens, 366.340 tokens-per-sec\nGeneration: 87 tokens, 36.137 tokens-per-sec\nPeak memory: 6.959 GB"
+}
