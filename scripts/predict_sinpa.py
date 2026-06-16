@@ -95,7 +95,7 @@ def extract_availability_list(text):
 
 def get_occupancy_level(predicted_availability):
     """
-    这里用停车可用性反推拥堵程度：
+    用停车可用性反推拥堵程度：
     可用性越低，说明越拥堵。
     """
 
@@ -112,23 +112,44 @@ def get_occupancy_level(predicted_availability):
         return "low"
 
 
-def get_congestion_penalty(predicted_availability):
+def availability_to_penalty(availability):
     """
-    给队员C路径规划模块使用。
-    可用性越低，拥堵惩罚越高。
+    单个时间步的停车可用性 -> 拥堵惩罚系数。
+    可用性越低，说明越拥堵，惩罚系数越高。
     """
 
-    if not predicted_availability:
-        return 0.0
-
-    avg_availability = sum(predicted_availability) / len(predicted_availability)
-
-    if avg_availability <= 0.25:
+    if availability <= 0.25:
         return 0.5
-    elif avg_availability <= 0.55:
+    elif availability <= 0.55:
         return 0.25
     else:
         return 0.08
+
+
+def get_congestion_penalty_series(predicted_availability):
+    """
+    生成未来12个时间步分别对应的拥堵惩罚系数。
+    队员C每进来一辆车时，可以根据预计到达时间选择对应时间步的惩罚系数。
+    """
+
+    return [
+        availability_to_penalty(value)
+        for value in predicted_availability
+    ]
+
+
+def get_average_congestion_penalty(predicted_availability):
+    """
+    计算平均拥堵惩罚系数。
+    这个字段适合第一版简化路径规划使用。
+    """
+
+    penalty_series = get_congestion_penalty_series(predicted_availability)
+
+    if not penalty_series:
+        return 0.0
+
+    return round(sum(penalty_series) / len(penalty_series), 4)
 
 
 def main():
@@ -136,15 +157,24 @@ def main():
     raw_output = run_model(prompt)
     predicted_availability = extract_availability_list(raw_output)
 
+    congestion_penalty_series = get_congestion_penalty_series(predicted_availability)
+    average_congestion_penalty = get_average_congestion_penalty(predicted_availability)
+
     result = {
         "model": "Qwen2.5-3B-Instruct + LoRA",
         "dataset": "SINPA",
         "lot_id": "lot_0",
+
+        "time_interval_minutes": 15,
         "history_steps": 12,
         "future_steps": 12,
+
         "predicted_availability": predicted_availability,
         "predicted_occupancy_level": get_occupancy_level(predicted_availability),
-        "congestion_penalty": get_congestion_penalty(predicted_availability),
+
+        "congestion_penalty_series": congestion_penalty_series,
+        "average_congestion_penalty": average_congestion_penalty,
+
         "raw_model_output": raw_output
     }
 

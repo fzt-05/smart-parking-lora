@@ -1,0 +1,852 @@
+{
+  "model": "Qwen2.5-3B-Instruct + LoRA",
+  "dataset": "SINPA + SUMO parking_final",
+  "data_source": {
+    "training_data": "real_datasets/SINPA/train.npz",
+    "parking_structure": "/Users/fziteng/Documents/Code/python/smart-parking-lora/data/sumo/parking_final.add.xml"
+  },
+  "lot_id": "parking_final",
+  "lot_name": "SUMO智慧停车场",
+  "lot_capacity": 694,
+  "parking_space_count": 694,
+  "time_interval_minutes": 15,
+  "total_steps": 96,
+  "prediction_range": "24h",
+  "daily_prediction": [
+    {
+      "time": "00:00",
+      "time_step": 0,
+      "predicted_available_lots": 166.6,
+      "predicted_availability_ratio": 0.2401,
+      "predicted_occupancy_level": "high",
+      "congestion_penalty": 0.5
+    },
+    {
+      "time": "00:15",
+      "time_step": 1,
+      "predicted_available_lots": 138.8,
+      "predicted_availability_ratio": 0.2,
+      "predicted_occupancy_level": "high",
+      "congestion_penalty": 0.5
+    },
+    {
+      "time": "00:30",
+      "time_step": 2,
+      "predicted_available_lots": 111.0,
+      "predicted_availability_ratio": 0.1599,
+      "predicted_occupancy_level": "high",
+      "congestion_penalty": 0.5
+    },
+    {
+      "time": "00:45",
+      "time_step": 3,
+      "predicted_available_lots": 83.3,
+      "predicted_availability_ratio": 0.12,
+      "predicted_occupancy_level": "high",
+      "congestion_penalty": 0.5
+    },
+    {
+      "time": "01:00",
+      "time_step": 4,
+      "predicted_available_lots": 55.5,
+      "predicted_availability_ratio": 0.08,
+      "predicted_occupancy_level": "high",
+      "congestion_penalty": 0.5
+    },
+    {
+      "time": "01:15",
+      "time_step": 5,
+      "predicted_available_lots": 27.8,
+      "predicted_availability_ratio": 0.0401,
+      "predicted_occupancy_level": "high",
+      "congestion_penalty": 0.5
+    },
+    {
+      "time": "01:30",
+      "time_step": 6,
+      "predicted_available_lots": 0.0,
+      "predicted_availability_ratio": 0.0,
+      "predicted_occupancy_level": "high",
+      "congestion_penalty": 0.5
+    },
+    {
+      "time": "01:45",
+      "time_step": 7,
+      "predicted_available_lots": 0.0,
+      "predicted_availability_ratio": 0.0,
+      "predicted_occupancy_level": "high",
+      "congestion_penalty": 0.5
+    },
+    {
+      "time": "02:00",
+      "time_step": 8,
+      "predicted_available_lots": 0.0,
+      "predicted_availability_ratio": 0.0,
+      "predicted_occupancy_level": "high",
+      "congestion_penalty": 0.5
+    },
+    {
+      "time": "02:15",
+      "time_step": 9,
+      "predicted_available_lots": 0.0,
+      "predicted_availability_ratio": 0.0,
+      "predicted_occupancy_level": "high",
+      "congestion_penalty": 0.5
+    },
+    {
+      "time": "02:30",
+      "time_step": 10,
+      "predicted_available_lots": 0.0,
+      "predicted_availability_ratio": 0.0,
+      "predicted_occupancy_level": "high",
+      "congestion_penalty": 0.5
+    },
+    {
+      "time": "02:45",
+      "time_step": 11,
+      "predicted_available_lots": 0.0,
+      "predicted_availability_ratio": 0.0,
+      "predicted_occupancy_level": "high",
+      "congestion_penalty": 0.5
+    },
+    {
+      "time": "03:00",
+      "time_step": 12,
+      "predicted_available_lots": 236.0,
+      "predicted_availability_ratio": 0.3401,
+      "predicted_occupancy_level": "medium",
+      "congestion_penalty": 0.25
+    },
+    {
+      "time": "03:15",
+      "time_step": 13,
+      "predicted_available_lots": 249.8,
+      "predicted_availability_ratio": 0.3599,
+      "predicted_occupancy_level": "medium",
+      "congestion_penalty": 0.25
+    },
+    {
+      "time": "03:30",
+      "time_step": 14,
+      "predicted_available_lots": 263.7,
+      "predicted_availability_ratio": 0.38,
+      "predicted_occupancy_level": "medium",
+      "congestion_penalty": 0.25
+    },
+    {
+      "time": "03:45",
+      "time_step": 15,
+      "predicted_available_lots": 277.6,
+      "predicted_availability_ratio": 0.4,
+      "predicted_occupancy_level": "medium",
+      "congestion_penalty": 0.25
+    },
+    {
+      "time": "04:00",
+      "time_step": 16,
+      "predicted_available_lots": 291.5,
+      "predicted_availability_ratio": 0.42,
+      "predicted_occupancy_level": "medium",
+      "congestion_penalty": 0.25
+    },
+    {
+      "time": "04:15",
+      "time_step": 17,
+      "predicted_available_lots": 305.4,
+      "predicted_availability_ratio": 0.4401,
+      "predicted_occupancy_level": "medium",
+      "congestion_penalty": 0.25
+    },
+    {
+      "time": "04:30",
+      "time_step": 18,
+      "predicted_available_lots": 319.2,
+      "predicted_availability_ratio": 0.4599,
+      "predicted_occupancy_level": "medium",
+      "congestion_penalty": 0.25
+    },
+    {
+      "time": "04:45",
+      "time_step": 19,
+      "predicted_available_lots": 333.1,
+      "predicted_availability_ratio": 0.48,
+      "predicted_occupancy_level": "medium",
+      "congestion_penalty": 0.25
+    },
+    {
+      "time": "05:00",
+      "time_step": 20,
+      "predicted_available_lots": 347.0,
+      "predicted_availability_ratio": 0.5,
+      "predicted_occupancy_level": "medium",
+      "congestion_penalty": 0.25
+    },
+    {
+      "time": "05:15",
+      "time_step": 21,
+      "predicted_available_lots": 360.9,
+      "predicted_availability_ratio": 0.52,
+      "predicted_occupancy_level": "medium",
+      "congestion_penalty": 0.25
+    },
+    {
+      "time": "05:30",
+      "time_step": 22,
+      "predicted_available_lots": 374.8,
+      "predicted_availability_ratio": 0.5401,
+      "predicted_occupancy_level": "medium",
+      "congestion_penalty": 0.25
+    },
+    {
+      "time": "05:45",
+      "time_step": 23,
+      "predicted_available_lots": 388.6,
+      "predicted_availability_ratio": 0.5599,
+      "predicted_occupancy_level": "low",
+      "congestion_penalty": 0.08
+    },
+    {
+      "time": "06:00",
+      "time_step": 24,
+      "predicted_available_lots": 222.1,
+      "predicted_availability_ratio": 0.32,
+      "predicted_occupancy_level": "medium",
+      "congestion_penalty": 0.25
+    },
+    {
+      "time": "06:15",
+      "time_step": 25,
+      "predicted_available_lots": 249.8,
+      "predicted_availability_ratio": 0.3599,
+      "predicted_occupancy_level": "medium",
+      "congestion_penalty": 0.25
+    },
+    {
+      "time": "06:30",
+      "time_step": 26,
+      "predicted_available_lots": 277.6,
+      "predicted_availability_ratio": 0.4,
+      "predicted_occupancy_level": "medium",
+      "congestion_penalty": 0.25
+    },
+    {
+      "time": "06:45",
+      "time_step": 27,
+      "predicted_available_lots": 305.4,
+      "predicted_availability_ratio": 0.4401,
+      "predicted_occupancy_level": "medium",
+      "congestion_penalty": 0.25
+    },
+    {
+      "time": "07:00",
+      "time_step": 28,
+      "predicted_available_lots": 333.1,
+      "predicted_availability_ratio": 0.48,
+      "predicted_occupancy_level": "medium",
+      "congestion_penalty": 0.25
+    },
+    {
+      "time": "07:15",
+      "time_step": 29,
+      "predicted_available_lots": 360.9,
+      "predicted_availability_ratio": 0.52,
+      "predicted_occupancy_level": "medium",
+      "congestion_penalty": 0.25
+    },
+    {
+      "time": "07:30",
+      "time_step": 30,
+      "predicted_available_lots": 388.6,
+      "predicted_availability_ratio": 0.5599,
+      "predicted_occupancy_level": "low",
+      "congestion_penalty": 0.08
+    },
+    {
+      "time": "07:45",
+      "time_step": 31,
+      "predicted_available_lots": 416.4,
+      "predicted_availability_ratio": 0.6,
+      "predicted_occupancy_level": "low",
+      "congestion_penalty": 0.08
+    },
+    {
+      "time": "08:00",
+      "time_step": 32,
+      "predicted_available_lots": 444.2,
+      "predicted_availability_ratio": 0.6401,
+      "predicted_occupancy_level": "low",
+      "congestion_penalty": 0.08
+    },
+    {
+      "time": "08:15",
+      "time_step": 33,
+      "predicted_available_lots": 471.9,
+      "predicted_availability_ratio": 0.68,
+      "predicted_occupancy_level": "low",
+      "congestion_penalty": 0.08
+    },
+    {
+      "time": "08:30",
+      "time_step": 34,
+      "predicted_available_lots": 499.7,
+      "predicted_availability_ratio": 0.72,
+      "predicted_occupancy_level": "low",
+      "congestion_penalty": 0.08
+    },
+    {
+      "time": "08:45",
+      "time_step": 35,
+      "predicted_available_lots": 527.4,
+      "predicted_availability_ratio": 0.7599,
+      "predicted_occupancy_level": "low",
+      "congestion_penalty": 0.08
+    },
+    {
+      "time": "09:00",
+      "time_step": 36,
+      "predicted_available_lots": 305.4,
+      "predicted_availability_ratio": 0.4401,
+      "predicted_occupancy_level": "medium",
+      "congestion_penalty": 0.25
+    },
+    {
+      "time": "09:15",
+      "time_step": 37,
+      "predicted_available_lots": 263.7,
+      "predicted_availability_ratio": 0.38,
+      "predicted_occupancy_level": "medium",
+      "congestion_penalty": 0.25
+    },
+    {
+      "time": "09:30",
+      "time_step": 38,
+      "predicted_available_lots": 222.1,
+      "predicted_availability_ratio": 0.32,
+      "predicted_occupancy_level": "medium",
+      "congestion_penalty": 0.25
+    },
+    {
+      "time": "09:45",
+      "time_step": 39,
+      "predicted_available_lots": 180.4,
+      "predicted_availability_ratio": 0.2599,
+      "predicted_occupancy_level": "medium",
+      "congestion_penalty": 0.25
+    },
+    {
+      "time": "10:00",
+      "time_step": 40,
+      "predicted_available_lots": 138.8,
+      "predicted_availability_ratio": 0.2,
+      "predicted_occupancy_level": "high",
+      "congestion_penalty": 0.5
+    },
+    {
+      "time": "10:15",
+      "time_step": 41,
+      "predicted_available_lots": 97.2,
+      "predicted_availability_ratio": 0.1401,
+      "predicted_occupancy_level": "high",
+      "congestion_penalty": 0.5
+    },
+    {
+      "time": "10:30",
+      "time_step": 42,
+      "predicted_available_lots": 55.5,
+      "predicted_availability_ratio": 0.08,
+      "predicted_occupancy_level": "high",
+      "congestion_penalty": 0.5
+    },
+    {
+      "time": "10:45",
+      "time_step": 43,
+      "predicted_available_lots": 13.9,
+      "predicted_availability_ratio": 0.02,
+      "predicted_occupancy_level": "high",
+      "congestion_penalty": 0.5
+    },
+    {
+      "time": "11:00",
+      "time_step": 44,
+      "predicted_available_lots": 0.0,
+      "predicted_availability_ratio": 0.0,
+      "predicted_occupancy_level": "high",
+      "congestion_penalty": 0.5
+    },
+    {
+      "time": "11:15",
+      "time_step": 45,
+      "predicted_available_lots": 0.0,
+      "predicted_availability_ratio": 0.0,
+      "predicted_occupancy_level": "high",
+      "congestion_penalty": 0.5
+    },
+    {
+      "time": "11:30",
+      "time_step": 46,
+      "predicted_available_lots": 0.0,
+      "predicted_availability_ratio": 0.0,
+      "predicted_occupancy_level": "high",
+      "congestion_penalty": 0.5
+    },
+    {
+      "time": "11:45",
+      "time_step": 47,
+      "predicted_available_lots": 0.0,
+      "predicted_availability_ratio": 0.0,
+      "predicted_occupancy_level": "high",
+      "congestion_penalty": 0.5
+    },
+    {
+      "time": "12:00",
+      "time_step": 48,
+      "predicted_available_lots": 541.3,
+      "predicted_availability_ratio": 0.78,
+      "predicted_occupancy_level": "low",
+      "congestion_penalty": 0.08
+    },
+    {
+      "time": "12:15",
+      "time_step": 49,
+      "predicted_available_lots": 555.2,
+      "predicted_availability_ratio": 0.8,
+      "predicted_occupancy_level": "low",
+      "congestion_penalty": 0.08
+    },
+    {
+      "time": "12:30",
+      "time_step": 50,
+      "predicted_available_lots": 569.1,
+      "predicted_availability_ratio": 0.82,
+      "predicted_occupancy_level": "low",
+      "congestion_penalty": 0.08
+    },
+    {
+      "time": "12:45",
+      "time_step": 51,
+      "predicted_available_lots": 583.0,
+      "predicted_availability_ratio": 0.8401,
+      "predicted_occupancy_level": "low",
+      "congestion_penalty": 0.08
+    },
+    {
+      "time": "13:00",
+      "time_step": 52,
+      "predicted_available_lots": 596.8,
+      "predicted_availability_ratio": 0.8599,
+      "predicted_occupancy_level": "low",
+      "congestion_penalty": 0.08
+    },
+    {
+      "time": "13:15",
+      "time_step": 53,
+      "predicted_available_lots": 610.7,
+      "predicted_availability_ratio": 0.88,
+      "predicted_occupancy_level": "low",
+      "congestion_penalty": 0.08
+    },
+    {
+      "time": "13:30",
+      "time_step": 54,
+      "predicted_available_lots": 624.6,
+      "predicted_availability_ratio": 0.9,
+      "predicted_occupancy_level": "low",
+      "congestion_penalty": 0.08
+    },
+    {
+      "time": "13:45",
+      "time_step": 55,
+      "predicted_available_lots": 638.5,
+      "predicted_availability_ratio": 0.92,
+      "predicted_occupancy_level": "low",
+      "congestion_penalty": 0.08
+    },
+    {
+      "time": "14:00",
+      "time_step": 56,
+      "predicted_available_lots": 652.4,
+      "predicted_availability_ratio": 0.9401,
+      "predicted_occupancy_level": "low",
+      "congestion_penalty": 0.08
+    },
+    {
+      "time": "14:15",
+      "time_step": 57,
+      "predicted_available_lots": 666.2,
+      "predicted_availability_ratio": 0.9599,
+      "predicted_occupancy_level": "low",
+      "congestion_penalty": 0.08
+    },
+    {
+      "time": "14:30",
+      "time_step": 58,
+      "predicted_available_lots": 680.1,
+      "predicted_availability_ratio": 0.98,
+      "predicted_occupancy_level": "low",
+      "congestion_penalty": 0.08
+    },
+    {
+      "time": "14:45",
+      "time_step": 59,
+      "predicted_available_lots": 694.0,
+      "predicted_availability_ratio": 1.0,
+      "predicted_occupancy_level": "low",
+      "congestion_penalty": 0.08
+    },
+    {
+      "time": "15:00",
+      "time_step": 60,
+      "predicted_available_lots": 471.9,
+      "predicted_availability_ratio": 0.68,
+      "predicted_occupancy_level": "low",
+      "congestion_penalty": 0.08
+    },
+    {
+      "time": "15:15",
+      "time_step": 61,
+      "predicted_available_lots": 471.9,
+      "predicted_availability_ratio": 0.68,
+      "predicted_occupancy_level": "low",
+      "congestion_penalty": 0.08
+    },
+    {
+      "time": "15:30",
+      "time_step": 62,
+      "predicted_available_lots": 471.9,
+      "predicted_availability_ratio": 0.68,
+      "predicted_occupancy_level": "low",
+      "congestion_penalty": 0.08
+    },
+    {
+      "time": "15:45",
+      "time_step": 63,
+      "predicted_available_lots": 471.9,
+      "predicted_availability_ratio": 0.68,
+      "predicted_occupancy_level": "low",
+      "congestion_penalty": 0.08
+    },
+    {
+      "time": "16:00",
+      "time_step": 64,
+      "predicted_available_lots": 471.9,
+      "predicted_availability_ratio": 0.68,
+      "predicted_occupancy_level": "low",
+      "congestion_penalty": 0.08
+    },
+    {
+      "time": "16:15",
+      "time_step": 65,
+      "predicted_available_lots": 471.9,
+      "predicted_availability_ratio": 0.68,
+      "predicted_occupancy_level": "low",
+      "congestion_penalty": 0.08
+    },
+    {
+      "time": "16:30",
+      "time_step": 66,
+      "predicted_available_lots": 471.9,
+      "predicted_availability_ratio": 0.68,
+      "predicted_occupancy_level": "low",
+      "congestion_penalty": 0.08
+    },
+    {
+      "time": "16:45",
+      "time_step": 67,
+      "predicted_available_lots": 471.9,
+      "predicted_availability_ratio": 0.68,
+      "predicted_occupancy_level": "low",
+      "congestion_penalty": 0.08
+    },
+    {
+      "time": "17:00",
+      "time_step": 68,
+      "predicted_available_lots": 471.9,
+      "predicted_availability_ratio": 0.68,
+      "predicted_occupancy_level": "low",
+      "congestion_penalty": 0.08
+    },
+    {
+      "time": "17:15",
+      "time_step": 69,
+      "predicted_available_lots": 471.9,
+      "predicted_availability_ratio": 0.68,
+      "predicted_occupancy_level": "low",
+      "congestion_penalty": 0.08
+    },
+    {
+      "time": "17:30",
+      "time_step": 70,
+      "predicted_available_lots": 471.9,
+      "predicted_availability_ratio": 0.68,
+      "predicted_occupancy_level": "low",
+      "congestion_penalty": 0.08
+    },
+    {
+      "time": "17:45",
+      "time_step": 71,
+      "predicted_available_lots": 471.9,
+      "predicted_availability_ratio": 0.68,
+      "predicted_occupancy_level": "low",
+      "congestion_penalty": 0.08
+    },
+    {
+      "time": "18:00",
+      "time_step": 72,
+      "predicted_available_lots": 555.2,
+      "predicted_availability_ratio": 0.8,
+      "predicted_occupancy_level": "low",
+      "congestion_penalty": 0.08
+    },
+    {
+      "time": "18:15",
+      "time_step": 73,
+      "predicted_available_lots": 624.6,
+      "predicted_availability_ratio": 0.9,
+      "predicted_occupancy_level": "low",
+      "congestion_penalty": 0.08
+    },
+    {
+      "time": "18:30",
+      "time_step": 74,
+      "predicted_available_lots": 694.0,
+      "predicted_availability_ratio": 1.0,
+      "predicted_occupancy_level": "low",
+      "congestion_penalty": 0.08
+    },
+    {
+      "time": "18:45",
+      "time_step": 75,
+      "predicted_available_lots": 694.0,
+      "predicted_availability_ratio": 1.0,
+      "predicted_occupancy_level": "low",
+      "congestion_penalty": 0.08
+    },
+    {
+      "time": "19:00",
+      "time_step": 76,
+      "predicted_available_lots": 694.0,
+      "predicted_availability_ratio": 1.0,
+      "predicted_occupancy_level": "low",
+      "congestion_penalty": 0.08
+    },
+    {
+      "time": "19:15",
+      "time_step": 77,
+      "predicted_available_lots": 694.0,
+      "predicted_availability_ratio": 1.0,
+      "predicted_occupancy_level": "low",
+      "congestion_penalty": 0.08
+    },
+    {
+      "time": "19:30",
+      "time_step": 78,
+      "predicted_available_lots": 694.0,
+      "predicted_availability_ratio": 1.0,
+      "predicted_occupancy_level": "low",
+      "congestion_penalty": 0.08
+    },
+    {
+      "time": "19:45",
+      "time_step": 79,
+      "predicted_available_lots": 694.0,
+      "predicted_availability_ratio": 1.0,
+      "predicted_occupancy_level": "low",
+      "congestion_penalty": 0.08
+    },
+    {
+      "time": "20:00",
+      "time_step": 80,
+      "predicted_available_lots": 694.0,
+      "predicted_availability_ratio": 1.0,
+      "predicted_occupancy_level": "low",
+      "congestion_penalty": 0.08
+    },
+    {
+      "time": "20:15",
+      "time_step": 81,
+      "predicted_available_lots": 694.0,
+      "predicted_availability_ratio": 1.0,
+      "predicted_occupancy_level": "low",
+      "congestion_penalty": 0.08
+    },
+    {
+      "time": "20:30",
+      "time_step": 82,
+      "predicted_available_lots": 694.0,
+      "predicted_availability_ratio": 1.0,
+      "predicted_occupancy_level": "low",
+      "congestion_penalty": 0.08
+    },
+    {
+      "time": "20:45",
+      "time_step": 83,
+      "predicted_available_lots": 694.0,
+      "predicted_availability_ratio": 1.0,
+      "predicted_occupancy_level": "low",
+      "congestion_penalty": 0.08
+    },
+    {
+      "time": "21:00",
+      "time_step": 84,
+      "predicted_available_lots": 291.5,
+      "predicted_availability_ratio": 0.42,
+      "predicted_occupancy_level": "medium",
+      "congestion_penalty": 0.25
+    },
+    {
+      "time": "21:15",
+      "time_step": 85,
+      "predicted_available_lots": 319.2,
+      "predicted_availability_ratio": 0.4599,
+      "predicted_occupancy_level": "medium",
+      "congestion_penalty": 0.25
+    },
+    {
+      "time": "21:30",
+      "time_step": 86,
+      "predicted_available_lots": 347.0,
+      "predicted_availability_ratio": 0.5,
+      "predicted_occupancy_level": "medium",
+      "congestion_penalty": 0.25
+    },
+    {
+      "time": "21:45",
+      "time_step": 87,
+      "predicted_available_lots": 374.8,
+      "predicted_availability_ratio": 0.5401,
+      "predicted_occupancy_level": "medium",
+      "congestion_penalty": 0.25
+    },
+    {
+      "time": "22:00",
+      "time_step": 88,
+      "predicted_available_lots": 402.5,
+      "predicted_availability_ratio": 0.58,
+      "predicted_occupancy_level": "low",
+      "congestion_penalty": 0.08
+    },
+    {
+      "time": "22:15",
+      "time_step": 89,
+      "predicted_available_lots": 430.3,
+      "predicted_availability_ratio": 0.62,
+      "predicted_occupancy_level": "low",
+      "congestion_penalty": 0.08
+    },
+    {
+      "time": "22:30",
+      "time_step": 90,
+      "predicted_available_lots": 458.0,
+      "predicted_availability_ratio": 0.6599,
+      "predicted_occupancy_level": "low",
+      "congestion_penalty": 0.08
+    },
+    {
+      "time": "22:45",
+      "time_step": 91,
+      "predicted_available_lots": 485.8,
+      "predicted_availability_ratio": 0.7,
+      "predicted_occupancy_level": "low",
+      "congestion_penalty": 0.08
+    },
+    {
+      "time": "23:00",
+      "time_step": 92,
+      "predicted_available_lots": 513.6,
+      "predicted_availability_ratio": 0.7401,
+      "predicted_occupancy_level": "low",
+      "congestion_penalty": 0.08
+    },
+    {
+      "time": "23:15",
+      "time_step": 93,
+      "predicted_available_lots": 541.3,
+      "predicted_availability_ratio": 0.78,
+      "predicted_occupancy_level": "low",
+      "congestion_penalty": 0.08
+    },
+    {
+      "time": "23:30",
+      "time_step": 94,
+      "predicted_available_lots": 569.1,
+      "predicted_availability_ratio": 0.82,
+      "predicted_occupancy_level": "low",
+      "congestion_penalty": 0.08
+    },
+    {
+      "time": "23:45",
+      "time_step": 95,
+      "predicted_available_lots": 596.8,
+      "predicted_availability_ratio": 0.8599,
+      "predicted_occupancy_level": "low",
+      "congestion_penalty": 0.08
+    }
+  ],
+  "average_congestion_penalty": 0.2118,
+  "raw_model_outputs": [
+    {
+      "round": 1,
+      "start_time_step": 0,
+      "start_time": "00:00",
+      "sinpa_sample_index": 38,
+      "used_fallback": false,
+      "raw_model_output": "==========\n未来12个时间步的可用车位数量预测为：[166.6, 138.8, 111.0, 83.3, 55.5, 27.8, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0].\n==========\nPrompt: 553 tokens, 451.101 tokens-per-sec\nGeneration: 84 tokens, 35.878 tokens-per-sec\nPeak memory: 7.103 GB"
+    },
+    {
+      "round": 2,
+      "start_time_step": 12,
+      "start_time": "03:00",
+      "sinpa_sample_index": 202,
+      "used_fallback": false,
+      "raw_model_output": "==========\n未来12个时间步的可用车位数量预测为：[236.0, 249.8, 263.7, 277.6, 291.5, 305.4, 319.2, 333.1, 347.0, 360.9, 374.8, 388.6]。\n==========\nPrompt: 569 tokens, 518.858 tokens-per-sec\nGeneration: 100 tokens, 35.786 tokens-per-sec\nPeak memory: 7.143 GB"
+    },
+    {
+      "round": 3,
+      "start_time_step": 24,
+      "start_time": "06:00",
+      "sinpa_sample_index": 49,
+      "used_fallback": false,
+      "raw_model_output": "==========\n未来12个时间步的可用车位数量预测为：[222.1, 249.8, 277.6, 305.4, 333.1, 360.9, 388.6, 416.4, 444.2, 471.9, 499.7, 527.4]。\n==========\nPrompt: 573 tokens, 479.747 tokens-per-sec\nGeneration: 100 tokens, 35.970 tokens-per-sec\nPeak memory: 7.154 GB"
+    },
+    {
+      "round": 4,
+      "start_time_step": 36,
+      "start_time": "09:00",
+      "sinpa_sample_index": 61,
+      "used_fallback": false,
+      "raw_model_output": "==========\n未来12个时间步的可用车位数量预测为：[305.4, 263.7, 222.1, 180.4, 138.8, 97.2, 55.5, 13.9, 0.0, 0.0, 0.0, 0.0].\n==========\nPrompt: 551 tokens, 502.538 tokens-per-sec\nGeneration: 88 tokens, 35.968 tokens-per-sec\nPeak memory: 7.105 GB"
+    },
+    {
+      "round": 5,
+      "start_time_step": 48,
+      "start_time": "12:00",
+      "sinpa_sample_index": 1,
+      "used_fallback": false,
+      "raw_model_output": "==========\n未来12个时间步的可用车位数量预测为：[541.3, 555.2, 569.1, 583.0, 596.8, 610.7, 624.6, 638.5, 652.4, 666.2, 680.1, 694]。\n==========\nPrompt: 570 tokens, 565.354 tokens-per-sec\nGeneration: 98 tokens, 35.902 tokens-per-sec\nPeak memory: 7.145 GB"
+    },
+    {
+      "round": 6,
+      "start_time_step": 60,
+      "start_time": "15:00",
+      "sinpa_sample_index": 13,
+      "used_fallback": false,
+      "raw_model_output": "==========\n未来12个时间步的可用车位数量预测为：[471.9, 471.9, 471.9, 471.9, 471.9, 471.9, 471.9, 471.9, 471.9, 471.9, 471.9, 471.9]。\n==========\nPrompt: 565 tokens, 523.512 tokens-per-sec\nGeneration: 100 tokens, 35.881 tokens-per-sec\nPeak memory: 7.136 GB"
+    },
+    {
+      "round": 7,
+      "start_time_step": 72,
+      "start_time": "18:00",
+      "sinpa_sample_index": 25,
+      "used_fallback": false,
+      "raw_model_output": "==========\n未来12个时间步的可用车位数量预测为：[555.2, 624.6, 694, 694, 694, 694, 694, 694, 694, 694, 694, 694]。\n==========\nPrompt: 541 tokens, 551.591 tokens-per-sec\nGeneration: 80 tokens, 36.038 tokens-per-sec\nPeak memory: 7.084 GB"
+    },
+    {
+      "round": 8,
+      "start_time_step": 84,
+      "start_time": "21:00",
+      "sinpa_sample_index": 109,
+      "used_fallback": false,
+      "raw_model_output": "==========\n未来12个时间步的可用车位数量预测为：[291.5, 319.2, 347.0, 374.8, 402.5, 430.3, 458.0, 485.8, 513.6, 541.3, 569.1, 596.8]。\n==========\nPrompt: 570 tokens, 673.894 tokens-per-sec\nGeneration: 100 tokens, 35.807 tokens-per-sec\nPeak memory: 7.137 GB"
+    }
+  ]
+}

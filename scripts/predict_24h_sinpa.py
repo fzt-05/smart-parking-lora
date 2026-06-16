@@ -17,14 +17,12 @@ DATA_DIR = BASE_DIR / "data"
 
 SINPA_TRAIN_PATH = BASE_DIR / "real_datasets" / "SINPA" / "train.npz"
 
+# 这里会自动尝试几个常见位置，你只要把 parking_final.add.xml 放到其中一个位置即可
 PARKING_ADD_CANDIDATES = [
     BASE_DIR / "data" / "sumo" / "parking_final.add.xml",
     BASE_DIR / "parking_final.add.xml",
     BASE_DIR / "routing" / "parking_final" / "parking_final.add.xml",
 ]
-
-# batch_test_sinpa.py 专用的停车场信息文件名
-BATCH_PARKING_INFO_PATH = DATA_DIR / "batch_sumo_parking_info.json"
 
 RESULT_DIR.mkdir(exist_ok=True)
 DATA_DIR.mkdir(exist_ok=True)
@@ -34,7 +32,6 @@ def find_parking_add_file():
     """
     查找小组 SUMO 停车场附加文件 parking_final.add.xml。
     """
-
     for path in PARKING_ADD_CANDIDATES:
         if path.exists():
             return path
@@ -104,7 +101,9 @@ def load_parking_metadata_from_sumo():
         "parking_spaces": parking_spaces
     }
 
-    with open(BATCH_PARKING_INFO_PATH, "w", encoding="utf-8") as f:
+    metadata_path = DATA_DIR / "parking_metadata.json"
+
+    with open(metadata_path, "w", encoding="utf-8") as f:
         json.dump(metadata, f, ensure_ascii=False, indent=2)
 
     return metadata
@@ -115,11 +114,10 @@ def load_sinpa_data():
     读取 SINPA 真实训练数据。
     x shape = (12167, 12, 1687, 12)
 
-    在本项目中：
-    SINPA 用来提供历史变化模式；
-    SUMO parking_final.add.xml 用来提供小组停车场容量和车位结构。
+    本项目中：
+    SINPA 用于提供历史停车变化模式；
+    SUMO parking_final.add.xml 用于提供小组停车场容量和车位结构。
     """
-
     data = np.load(SINPA_TRAIN_PATH)
     return data["x"]
 
@@ -129,13 +127,24 @@ def get_sinpa_lot_capacity(x, lot_index):
     估计 SINPA 中某个停车场的容量。
     用该停车场历史最大可用车位数量近似表示。
     """
-
     capacity = float(np.max(x[:, :, lot_index, 0]))
 
     if capacity <= 0:
         capacity = 1.0
 
     return round(capacity, 4)
+
+
+def time_step_to_clock(time_step):
+    """
+    将 0-95 的时间片编号转换为 HH:MM。
+    每个时间片为 15 分钟。
+    """
+    time_step = time_step % 96
+    total_minutes = time_step * 15
+    hour = total_minutes // 60
+    minute = total_minutes % 60
+    return f"{hour:02d}:{minute:02d}"
 
 
 def find_sample_by_time_step(x, target_time_step, lot_index=0):
@@ -145,7 +154,6 @@ def find_sample_by_time_step(x, target_time_step, lot_index=0):
     x[:, -1, lot_index, 1] 表示当前样本最后一个历史时间步的 time_of_day。
     time_of_day 范围为 0-95。
     """
-
     for sample_index in range(x.shape[0]):
         current_time_step = int(round(float(x[sample_index, -1, lot_index, 1])))
 
@@ -159,7 +167,6 @@ def convert_lots_to_ratio(available_lots_list, lot_capacity):
     """
     将可用车位数量转换为 0~1 之间的可用性比例。
     """
-
     if lot_capacity <= 0:
         return [0.0 for _ in available_lots_list]
 
@@ -174,8 +181,8 @@ def scale_sinpa_history_to_sumo_capacity(x, sample_index, sinpa_lot_index, sumo_
     从 SINPA 读取历史可用车位序列，并按比例映射到小组 SUMO 停车场容量。
 
     例如：
-    SINPA 某停车场容量约 50，历史可用 25，比例为 0.5；
-    小组 SUMO 停车场容量为 694，则映射后可用车位约为 347。
+    SINPA 某停车场容量约 50，历史可用 25，比例是 0.5；
+    小组 SUMO 停车场容量是 694，则映射后可用车位约为 347。
     """
 
     sinpa_capacity = get_sinpa_lot_capacity(x, sinpa_lot_index)
@@ -230,7 +237,6 @@ def build_example_values(history_available_lots, lot_capacity):
     根据真实历史数据动态生成 prompt 示例。
     避免固定示例导致模型照抄。
     """
-
     if not history_available_lots:
         start_value = lot_capacity * 0.5
     else:
@@ -251,14 +257,13 @@ def build_example_values(history_available_lots, lot_capacity):
     return example_values
 
 
-def build_prompt(case, parking_metadata, scene_name):
+def build_prompt(case, parking_metadata, start_time_step):
     """
     构造大模型输入。
     这里预测的是小组 SUMO 停车场未来12个时间步的可用车位数量。
     """
 
     lot_capacity = parking_metadata["total_lots"]
-
     example_values = build_example_values(
         case["history_available_lots"],
         lot_capacity
@@ -267,13 +272,12 @@ def build_prompt(case, parking_metadata, scene_name):
     prompt = f"""你是智慧停车场车位可用性预测助手。
 请根据停车场过去3小时的历史数据和当前特征，预测未来3小时的停车可用性变化。
 
-预测场景：{scene_name}
 停车场编号：{parking_metadata["lot_id"]}
 停车场名称：{parking_metadata["lot_name"]}
 停车场总容量：{lot_capacity}
 过去12个时间步的可用车位数量：{case["history_available_lots"]}
 过去12个时间步的停车可用性比例：{case["history_availability_ratio"]}
-当前时间段编号：{case["time_of_day"]}，范围为0到95，表示一天中的15分钟时间片。
+当前时间段编号：{start_time_step}，范围为0到95，表示一天中的15分钟时间片。
 星期编号：{case["weekday"]}，范围为0到6。
 是否节假日：{case["is_holiday"]}
 温度特征：{case["temperature"]}
@@ -296,7 +300,6 @@ def build_prompt(case, parking_metadata, scene_name):
 格式如下：
 未来12个时间步的可用车位数量预测为：{example_values}。
 """
-
     return prompt
 
 
@@ -327,7 +330,6 @@ def extract_available_lots_list(text, lot_capacity):
 
     如果输出负数或超过容量，返回空列表，让系统走兜底预测。
     """
-
     match = re.search(r"\[([0-9.,\s]+)\]", text)
 
     if not match:
@@ -356,7 +358,6 @@ def fallback_prediction(history_available_lots, lot_capacity):
     """
     如果模型输出不合理，则使用最近趋势进行兜底预测。
     """
-
     if not history_available_lots:
         return [round(lot_capacity * 0.5, 4)] * 12
 
@@ -384,20 +385,14 @@ def fallback_prediction(history_available_lots, lot_capacity):
     return result
 
 
-def get_occupancy_level(availability_ratio_list):
+def get_occupancy_level_from_ratio(availability_ratio):
     """
-    根据平均可用性比例判断拥堵等级。
-    可用性比例越低，说明越拥堵。
+    根据可用性比例判断拥堵等级。
+    可用性越低，说明越拥堵。
     """
-
-    if not availability_ratio_list:
-        return "unknown"
-
-    avg_ratio = sum(availability_ratio_list) / len(availability_ratio_list)
-
-    if avg_ratio <= 0.25:
+    if availability_ratio <= 0.25:
         return "high"
-    elif avg_ratio <= 0.55:
+    elif availability_ratio <= 0.55:
         return "medium"
     else:
         return "low"
@@ -405,9 +400,8 @@ def get_occupancy_level(availability_ratio_list):
 
 def availability_ratio_to_penalty(availability_ratio):
     """
-    单个时间步的停车可用性比例 -> 拥堵惩罚系数。
+    可用性比例 -> 拥堵惩罚系数。
     """
-
     if availability_ratio <= 0.25:
         return 0.5
     elif availability_ratio <= 0.55:
@@ -416,41 +410,16 @@ def availability_ratio_to_penalty(availability_ratio):
         return 0.08
 
 
-def get_congestion_penalty_series(availability_ratio_list):
+def predict_next_12_steps(case, parking_metadata, start_time_step):
     """
-    根据未来12个时间步的可用性比例，生成拥堵惩罚系数序列。
+    调用模型预测未来12个时间步。
     """
-
-    return [
-        availability_ratio_to_penalty(value)
-        for value in availability_ratio_list
-    ]
-
-
-def get_average_congestion_penalty(availability_ratio_list):
-    """
-    计算未来12个时间步的平均拥堵惩罚系数。
-    """
-
-    penalty_series = get_congestion_penalty_series(availability_ratio_list)
-
-    if not penalty_series:
-        return 0.0
-
-    return round(sum(penalty_series) / len(penalty_series), 4)
-
-
-def predict_case(case, parking_metadata, scene_name):
-    """
-    单个场景预测。
-    """
-
     lot_capacity = parking_metadata["total_lots"]
 
     prompt = build_prompt(
         case=case,
         parking_metadata=parking_metadata,
-        scene_name=scene_name
+        start_time_step=start_time_step
     )
 
     raw_output = run_model(prompt)
@@ -475,109 +444,36 @@ def predict_case(case, parking_metadata, scene_name):
         lot_capacity
     )
 
-    congestion_penalty_series = get_congestion_penalty_series(
-        predicted_availability_ratio
-    )
-
-    average_congestion_penalty = get_average_congestion_penalty(
-        predicted_availability_ratio
-    )
-
-    result = {
-        "model": "Qwen2.5-3B-Instruct + LoRA",
-        "dataset": "SINPA + SUMO parking_final",
-        "data_source": {
-            "training_data": "real_datasets/SINPA/train.npz",
-            "parking_structure": parking_metadata["source_file"]
-        },
-
-        "scene": scene_name,
-
-        "lot_id": parking_metadata["lot_id"],
-        "lot_name": parking_metadata["lot_name"],
-        "lot_capacity": parking_metadata["total_lots"],
-        "parking_space_count": parking_metadata["parking_space_count"],
-
-        "time_interval_minutes": 15,
-        "history_steps": 12,
-        "future_steps": 12,
-
-        "sinpa_sample_index": case["sample_index"],
-        "sinpa_lot_index": case["sinpa_lot_index"],
-        "sinpa_capacity": case["sinpa_capacity"],
-
-        "input_history_available_lots": case["history_available_lots"],
-        "input_history_availability_ratio": case["history_availability_ratio"],
-
-        "input_features": {
-            "time_of_day": case["time_of_day"],
-            "weekday": case["weekday"],
-            "is_holiday": case["is_holiday"],
-            "temperature": case["temperature"],
-            "humidity": case["humidity"],
-            "windspeed": case["windspeed"],
-            "utilization_type": case["utilization_type"],
-            "planning_area": case["planning_area"],
-            "road_density": case["road_density"],
-            "latitude": case["latitude"],
-            "longitude": case["longitude"]
-        },
-
-        "predicted_available_lots": predicted_available_lots,
-        "predicted_availability_ratio": predicted_availability_ratio,
-        "predicted_occupancy_level": get_occupancy_level(
-            predicted_availability_ratio
-        ),
-
-        "congestion_penalty_series": congestion_penalty_series,
-        "average_congestion_penalty": average_congestion_penalty,
-
-        "used_fallback": used_fallback,
-        "raw_model_output": raw_output
-    }
-
-    return result
+    return predicted_available_lots, predicted_availability_ratio, raw_output, used_fallback
 
 
-def main():
+def build_24h_prediction():
+    """
+    生成未来24小时预测结果。
+
+    现在的逻辑：
+    1. 从 SUMO parking_final.add.xml 中读取小组停车场总容量；
+    2. 从 SINPA 中读取不同时间段的历史变化模式；
+    3. 将 SINPA 历史比例映射到小组停车场容量；
+    4. 每3小时重新读取一次真实历史模式，避免滚动预测一路变成0；
+    5. 拼接成未来24小时的96个时间片。
+    """
+
     parking_metadata = load_parking_metadata_from_sumo()
     x = load_sinpa_data()
 
-    cases = [
-        {
-            "scene": "morning_peak",
-            "target_time_step": 32,
-            "sinpa_lot_index": 0
-        },
-        {
-            "scene": "evening_peak",
-            "target_time_step": 72,
-            "sinpa_lot_index": 1
-        },
-        {
-            "scene": "night_leave",
-            "target_time_step": 84,
-            "sinpa_lot_index": 2
-        }
-    ]
+    # 第一版使用 SINPA 中第0个停车场作为历史变化参考模式
+    sinpa_lot_index = 0
 
-    print("已读取小组 SUMO 停车场信息：")
-    print(f"停车场编号：{parking_metadata['lot_id']}")
-    print(f"停车场名称：{parking_metadata['lot_name']}")
-    print(f"停车场总容量：{parking_metadata['total_lots']}")
-    print(f"停车位数量：{parking_metadata['parking_space_count']}")
-    print()
+    daily_prediction = []
+    raw_model_outputs = []
 
-    for item in cases:
-        scene_name = item["scene"]
-        target_time_step = item["target_time_step"]
-        sinpa_lot_index = item["sinpa_lot_index"]
-
-        print(f"正在生成场景：{scene_name}")
+    for round_index in range(8):
+        current_start_time_step = round_index * 12
 
         sample_index = find_sample_by_time_step(
             x=x,
-            target_time_step=target_time_step,
+            target_time_step=current_start_time_step,
             lot_index=sinpa_lot_index
         )
 
@@ -588,25 +484,89 @@ def main():
             sumo_capacity=parking_metadata["total_lots"]
         )
 
-        result = predict_case(
+        (
+            predicted_available_lots,
+            predicted_availability_ratio,
+            raw_output,
+            used_fallback
+        ) = predict_next_12_steps(
             case=case,
             parking_metadata=parking_metadata,
-            scene_name=scene_name
+            start_time_step=current_start_time_step
         )
 
-        output_path = RESULT_DIR / f"predict_{scene_name}.json"
+        raw_model_outputs.append({
+            "round": round_index + 1,
+            "start_time_step": current_start_time_step,
+            "start_time": time_step_to_clock(current_start_time_step),
+            "sinpa_sample_index": sample_index,
+            "used_fallback": used_fallback,
+            "raw_model_output": raw_output
+        })
 
-        with open(output_path, "w", encoding="utf-8") as f:
-            json.dump(result, f, ensure_ascii=False, indent=2)
+        for i in range(12):
+            time_step = current_start_time_step + i
+            available_lots = predicted_available_lots[i]
+            availability_ratio = predicted_availability_ratio[i]
 
-        print(f"已保存：{output_path}")
+            item = {
+                "time": time_step_to_clock(time_step),
+                "time_step": time_step,
+                "predicted_available_lots": available_lots,
+                "predicted_availability_ratio": availability_ratio,
+                "predicted_occupancy_level": get_occupancy_level_from_ratio(
+                    availability_ratio
+                ),
+                "congestion_penalty": availability_ratio_to_penalty(
+                    availability_ratio
+                )
+            }
 
-        if result["used_fallback"]:
-            print("提示：该场景模型输出不合理，已使用趋势兜底结果。")
+            daily_prediction.append(item)
 
-        print()
+    average_congestion_penalty = round(
+        sum(item["congestion_penalty"] for item in daily_prediction) / len(daily_prediction),
+        4
+    )
 
-    print(f"批量测试用 SUMO 停车场信息已保存到：{BATCH_PARKING_INFO_PATH}")
+    result = {
+        "model": "Qwen2.5-3B-Instruct + LoRA",
+        "dataset": "SINPA + SUMO parking_final",
+        "data_source": {
+            "training_data": "real_datasets/SINPA/train.npz",
+            "parking_structure": parking_metadata["source_file"]
+        },
+
+        "lot_id": parking_metadata["lot_id"],
+        "lot_name": parking_metadata["lot_name"],
+        "lot_capacity": parking_metadata["total_lots"],
+        "parking_space_count": parking_metadata["parking_space_count"],
+
+        "time_interval_minutes": 15,
+        "total_steps": 96,
+        "prediction_range": "24h",
+
+        "daily_prediction": daily_prediction,
+        "average_congestion_penalty": average_congestion_penalty,
+        "raw_model_outputs": raw_model_outputs
+    }
+
+    return result
+
+
+def main():
+    result = build_24h_prediction()
+
+    output_path = RESULT_DIR / "predict_24h.json"
+
+    with open(output_path, "w", encoding="utf-8") as f:
+        json.dump(result, f, ensure_ascii=False, indent=2)
+
+    print(json.dumps(result, ensure_ascii=False, indent=2))
+    print(f"\n24小时预测结果已保存到：{output_path}")
+
+    metadata_path = DATA_DIR / "parking_metadata.json"
+    print(f"停车场元数据已保存到：{metadata_path}")
 
 
 if __name__ == "__main__":

@@ -1,0 +1,6949 @@
+{
+  "lot_id": "parking_final",
+  "lot_name": "SUMO智慧停车场",
+  "source_file": "/Users/fziteng/Documents/Code/python/smart-parking-lora/data/sumo/parking_final.add.xml",
+  "total_lots": 694,
+  "parking_space_count": 694,
+  "parking_spaces": [
+    {
+      "parking_area_id": "pa_1_0",
+      "lane": "-R_0033#0_0",
+      "capacity": 1,
+      "start_pos": 2.0,
+      "end_pos": 7.2,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_1_1",
+      "lane": "-R_0033#0_0",
+      "capacity": 1,
+      "start_pos": 7.2,
+      "end_pos": 12.4,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_1_2",
+      "lane": "-R_0033#0_0",
+      "capacity": 1,
+      "start_pos": 12.4,
+      "end_pos": 17.6,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_1_3",
+      "lane": "-R_0033#0_0",
+      "capacity": 1,
+      "start_pos": 17.6,
+      "end_pos": 22.8,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_1_4",
+      "lane": "-R_0033#0_0",
+      "capacity": 1,
+      "start_pos": 22.8,
+      "end_pos": 28.0,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_10_0",
+      "lane": "-R_0039#0_0",
+      "capacity": 1,
+      "start_pos": 2.0,
+      "end_pos": 7.2,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_10_1",
+      "lane": "-R_0039#0_0",
+      "capacity": 1,
+      "start_pos": 7.2,
+      "end_pos": 12.4,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_10_2",
+      "lane": "-R_0039#0_0",
+      "capacity": 1,
+      "start_pos": 12.4,
+      "end_pos": 17.6,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_10_3",
+      "lane": "-R_0039#0_0",
+      "capacity": 1,
+      "start_pos": 17.6,
+      "end_pos": 22.8,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_10_4",
+      "lane": "-R_0039#0_0",
+      "capacity": 1,
+      "start_pos": 22.8,
+      "end_pos": 28.0,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_100_0",
+      "lane": "R_0051_0",
+      "capacity": 1,
+      "start_pos": 2.0,
+      "end_pos": 6.71,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_100_1",
+      "lane": "R_0051_0",
+      "capacity": 1,
+      "start_pos": 6.71,
+      "end_pos": 11.43,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_100_2",
+      "lane": "R_0051_0",
+      "capacity": 1,
+      "start_pos": 11.43,
+      "end_pos": 16.14,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_100_3",
+      "lane": "R_0051_0",
+      "capacity": 1,
+      "start_pos": 16.14,
+      "end_pos": 20.85,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_101_0",
+      "lane": "R_0052_0",
+      "capacity": 1,
+      "start_pos": 2.0,
+      "end_pos": 6.7,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_101_1",
+      "lane": "R_0052_0",
+      "capacity": 1,
+      "start_pos": 6.7,
+      "end_pos": 11.4,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_101_2",
+      "lane": "R_0052_0",
+      "capacity": 1,
+      "start_pos": 11.4,
+      "end_pos": 16.1,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_101_3",
+      "lane": "R_0052_0",
+      "capacity": 1,
+      "start_pos": 16.1,
+      "end_pos": 20.8,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_102_0",
+      "lane": "R_0053_0",
+      "capacity": 1,
+      "start_pos": 2.0,
+      "end_pos": 6.7,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_102_1",
+      "lane": "R_0053_0",
+      "capacity": 1,
+      "start_pos": 6.7,
+      "end_pos": 11.39,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_102_2",
+      "lane": "R_0053_0",
+      "capacity": 1,
+      "start_pos": 11.39,
+      "end_pos": 16.09,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_102_3",
+      "lane": "R_0053_0",
+      "capacity": 1,
+      "start_pos": 16.09,
+      "end_pos": 20.78,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_103_0",
+      "lane": "R_0054_0",
+      "capacity": 1,
+      "start_pos": 2.0,
+      "end_pos": 6.7,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_103_1",
+      "lane": "R_0054_0",
+      "capacity": 1,
+      "start_pos": 6.7,
+      "end_pos": 11.39,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_103_2",
+      "lane": "R_0054_0",
+      "capacity": 1,
+      "start_pos": 11.39,
+      "end_pos": 16.09,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_103_3",
+      "lane": "R_0054_0",
+      "capacity": 1,
+      "start_pos": 16.09,
+      "end_pos": 20.78,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_104_0",
+      "lane": "R_0055_0",
+      "capacity": 1,
+      "start_pos": 2.0,
+      "end_pos": 6.69,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_104_1",
+      "lane": "R_0055_0",
+      "capacity": 1,
+      "start_pos": 6.69,
+      "end_pos": 11.38,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_104_2",
+      "lane": "R_0055_0",
+      "capacity": 1,
+      "start_pos": 11.38,
+      "end_pos": 16.06,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_104_3",
+      "lane": "R_0055_0",
+      "capacity": 1,
+      "start_pos": 16.06,
+      "end_pos": 20.75,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_105_0",
+      "lane": "R_0056_0",
+      "capacity": 1,
+      "start_pos": 2.0,
+      "end_pos": 6.7,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_105_1",
+      "lane": "R_0056_0",
+      "capacity": 1,
+      "start_pos": 6.7,
+      "end_pos": 11.39,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_105_2",
+      "lane": "R_0056_0",
+      "capacity": 1,
+      "start_pos": 11.39,
+      "end_pos": 16.09,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_105_3",
+      "lane": "R_0056_0",
+      "capacity": 1,
+      "start_pos": 16.09,
+      "end_pos": 20.78,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_106_0",
+      "lane": "R_0057_0",
+      "capacity": 1,
+      "start_pos": 2.0,
+      "end_pos": 6.76,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_106_1",
+      "lane": "R_0057_0",
+      "capacity": 1,
+      "start_pos": 6.76,
+      "end_pos": 11.53,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_106_2",
+      "lane": "R_0057_0",
+      "capacity": 1,
+      "start_pos": 11.53,
+      "end_pos": 16.29,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_106_3",
+      "lane": "R_0057_0",
+      "capacity": 1,
+      "start_pos": 16.29,
+      "end_pos": 21.05,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_107_0",
+      "lane": "R_0058_0",
+      "capacity": 1,
+      "start_pos": 2.0,
+      "end_pos": 6.69,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_107_1",
+      "lane": "R_0058_0",
+      "capacity": 1,
+      "start_pos": 6.69,
+      "end_pos": 11.38,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_107_2",
+      "lane": "R_0058_0",
+      "capacity": 1,
+      "start_pos": 11.38,
+      "end_pos": 16.08,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_107_3",
+      "lane": "R_0058_0",
+      "capacity": 1,
+      "start_pos": 16.08,
+      "end_pos": 20.77,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_108_0",
+      "lane": "R_0059_0",
+      "capacity": 1,
+      "start_pos": 2.0,
+      "end_pos": 6.68,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_108_1",
+      "lane": "R_0059_0",
+      "capacity": 1,
+      "start_pos": 6.68,
+      "end_pos": 11.37,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_108_2",
+      "lane": "R_0059_0",
+      "capacity": 1,
+      "start_pos": 11.37,
+      "end_pos": 16.05,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_108_3",
+      "lane": "R_0059_0",
+      "capacity": 1,
+      "start_pos": 16.05,
+      "end_pos": 20.73,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_109_0",
+      "lane": "R_0060_0",
+      "capacity": 1,
+      "start_pos": 2.0,
+      "end_pos": 6.68,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_109_1",
+      "lane": "R_0060_0",
+      "capacity": 1,
+      "start_pos": 6.68,
+      "end_pos": 11.37,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_109_2",
+      "lane": "R_0060_0",
+      "capacity": 1,
+      "start_pos": 11.37,
+      "end_pos": 16.05,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_109_3",
+      "lane": "R_0060_0",
+      "capacity": 1,
+      "start_pos": 16.05,
+      "end_pos": 20.74,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_11_0",
+      "lane": "-R_0039#1_0",
+      "capacity": 1,
+      "start_pos": 2.0,
+      "end_pos": 7.2,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_11_1",
+      "lane": "-R_0039#1_0",
+      "capacity": 1,
+      "start_pos": 7.2,
+      "end_pos": 12.4,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_11_2",
+      "lane": "-R_0039#1_0",
+      "capacity": 1,
+      "start_pos": 12.4,
+      "end_pos": 17.6,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_11_3",
+      "lane": "-R_0039#1_0",
+      "capacity": 1,
+      "start_pos": 17.6,
+      "end_pos": 22.8,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_11_4",
+      "lane": "-R_0039#1_0",
+      "capacity": 1,
+      "start_pos": 22.8,
+      "end_pos": 28.0,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_110_0",
+      "lane": "R_0061_0",
+      "capacity": 1,
+      "start_pos": 2.0,
+      "end_pos": 6.69,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_110_1",
+      "lane": "R_0061_0",
+      "capacity": 1,
+      "start_pos": 6.69,
+      "end_pos": 11.38,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_110_2",
+      "lane": "R_0061_0",
+      "capacity": 1,
+      "start_pos": 11.38,
+      "end_pos": 16.07,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_110_3",
+      "lane": "R_0061_0",
+      "capacity": 1,
+      "start_pos": 16.07,
+      "end_pos": 20.76,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_111_0",
+      "lane": "R_0062_0",
+      "capacity": 1,
+      "start_pos": 2.0,
+      "end_pos": 6.67,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_111_1",
+      "lane": "R_0062_0",
+      "capacity": 1,
+      "start_pos": 6.67,
+      "end_pos": 11.35,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_111_2",
+      "lane": "R_0062_0",
+      "capacity": 1,
+      "start_pos": 11.35,
+      "end_pos": 16.02,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_111_3",
+      "lane": "R_0062_0",
+      "capacity": 1,
+      "start_pos": 16.02,
+      "end_pos": 20.7,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_112_0",
+      "lane": "R_0063_0",
+      "capacity": 1,
+      "start_pos": 2.0,
+      "end_pos": 6.68,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_112_1",
+      "lane": "R_0063_0",
+      "capacity": 1,
+      "start_pos": 6.68,
+      "end_pos": 11.36,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_112_2",
+      "lane": "R_0063_0",
+      "capacity": 1,
+      "start_pos": 11.36,
+      "end_pos": 16.04,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_112_3",
+      "lane": "R_0063_0",
+      "capacity": 1,
+      "start_pos": 16.04,
+      "end_pos": 20.72,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_113_0",
+      "lane": "R_0064_0",
+      "capacity": 1,
+      "start_pos": 2.0,
+      "end_pos": 6.67,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_113_1",
+      "lane": "R_0064_0",
+      "capacity": 1,
+      "start_pos": 6.67,
+      "end_pos": 11.33,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_113_2",
+      "lane": "R_0064_0",
+      "capacity": 1,
+      "start_pos": 11.33,
+      "end_pos": 16.0,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_113_3",
+      "lane": "R_0064_0",
+      "capacity": 1,
+      "start_pos": 16.0,
+      "end_pos": 20.66,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_114_0",
+      "lane": "R_0065_0",
+      "capacity": 1,
+      "start_pos": 2.0,
+      "end_pos": 6.67,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_114_1",
+      "lane": "R_0065_0",
+      "capacity": 1,
+      "start_pos": 6.67,
+      "end_pos": 11.34,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_114_2",
+      "lane": "R_0065_0",
+      "capacity": 1,
+      "start_pos": 11.34,
+      "end_pos": 16.0,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_114_3",
+      "lane": "R_0065_0",
+      "capacity": 1,
+      "start_pos": 16.0,
+      "end_pos": 20.67,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_115_0",
+      "lane": "R_0066_0",
+      "capacity": 1,
+      "start_pos": 2.0,
+      "end_pos": 6.79,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_115_1",
+      "lane": "R_0066_0",
+      "capacity": 1,
+      "start_pos": 6.79,
+      "end_pos": 11.59,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_115_2",
+      "lane": "R_0066_0",
+      "capacity": 1,
+      "start_pos": 11.59,
+      "end_pos": 16.38,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_115_3",
+      "lane": "R_0066_0",
+      "capacity": 1,
+      "start_pos": 16.38,
+      "end_pos": 21.18,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_118_0",
+      "lane": "R_0078_0",
+      "capacity": 1,
+      "start_pos": 2.0,
+      "end_pos": 7.53,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_118_1",
+      "lane": "R_0078_0",
+      "capacity": 1,
+      "start_pos": 7.53,
+      "end_pos": 13.06,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_119_0",
+      "lane": "R_0079_0",
+      "capacity": 1,
+      "start_pos": 2.0,
+      "end_pos": 6.7,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_119_1",
+      "lane": "R_0079_0",
+      "capacity": 1,
+      "start_pos": 6.7,
+      "end_pos": 11.39,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_119_2",
+      "lane": "R_0079_0",
+      "capacity": 1,
+      "start_pos": 11.39,
+      "end_pos": 16.09,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_119_3",
+      "lane": "R_0079_0",
+      "capacity": 1,
+      "start_pos": 16.09,
+      "end_pos": 20.79,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_119_4",
+      "lane": "R_0079_0",
+      "capacity": 1,
+      "start_pos": 20.79,
+      "end_pos": 25.49,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_119_5",
+      "lane": "R_0079_0",
+      "capacity": 1,
+      "start_pos": 25.49,
+      "end_pos": 30.18,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_119_6",
+      "lane": "R_0079_0",
+      "capacity": 1,
+      "start_pos": 30.18,
+      "end_pos": 34.88,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_12_0",
+      "lane": "-R_0039#2_0",
+      "capacity": 1,
+      "start_pos": 2.0,
+      "end_pos": 6.5,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_12_1",
+      "lane": "-R_0039#2_0",
+      "capacity": 1,
+      "start_pos": 6.5,
+      "end_pos": 11.0,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_12_2",
+      "lane": "-R_0039#2_0",
+      "capacity": 1,
+      "start_pos": 11.0,
+      "end_pos": 15.5,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_12_3",
+      "lane": "-R_0039#2_0",
+      "capacity": 1,
+      "start_pos": 15.5,
+      "end_pos": 20.0,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_12_4",
+      "lane": "-R_0039#2_0",
+      "capacity": 1,
+      "start_pos": 20.0,
+      "end_pos": 24.5,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_12_5",
+      "lane": "-R_0039#2_0",
+      "capacity": 1,
+      "start_pos": 24.5,
+      "end_pos": 29.0,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_12_6",
+      "lane": "-R_0039#2_0",
+      "capacity": 1,
+      "start_pos": 29.0,
+      "end_pos": 33.5,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_12_7",
+      "lane": "-R_0039#2_0",
+      "capacity": 1,
+      "start_pos": 33.5,
+      "end_pos": 38.0,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_120_0",
+      "lane": "R_0080_0",
+      "capacity": 1,
+      "start_pos": 2.0,
+      "end_pos": 6.96,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_120_1",
+      "lane": "R_0080_0",
+      "capacity": 1,
+      "start_pos": 6.96,
+      "end_pos": 11.91,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_120_2",
+      "lane": "R_0080_0",
+      "capacity": 1,
+      "start_pos": 11.91,
+      "end_pos": 16.87,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_120_3",
+      "lane": "R_0080_0",
+      "capacity": 1,
+      "start_pos": 16.87,
+      "end_pos": 21.83,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_120_4",
+      "lane": "R_0080_0",
+      "capacity": 1,
+      "start_pos": 21.83,
+      "end_pos": 26.79,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_120_5",
+      "lane": "R_0080_0",
+      "capacity": 1,
+      "start_pos": 26.79,
+      "end_pos": 31.74,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_120_6",
+      "lane": "R_0080_0",
+      "capacity": 1,
+      "start_pos": 31.74,
+      "end_pos": 36.7,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_121_0",
+      "lane": "R_0081_0",
+      "capacity": 1,
+      "start_pos": 2.0,
+      "end_pos": 6.98,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_121_1",
+      "lane": "R_0081_0",
+      "capacity": 1,
+      "start_pos": 6.98,
+      "end_pos": 11.96,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_121_2",
+      "lane": "R_0081_0",
+      "capacity": 1,
+      "start_pos": 11.96,
+      "end_pos": 16.94,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_121_3",
+      "lane": "R_0081_0",
+      "capacity": 1,
+      "start_pos": 16.94,
+      "end_pos": 21.92,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_121_4",
+      "lane": "R_0081_0",
+      "capacity": 1,
+      "start_pos": 21.92,
+      "end_pos": 26.9,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_121_5",
+      "lane": "R_0081_0",
+      "capacity": 1,
+      "start_pos": 26.9,
+      "end_pos": 31.88,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_121_6",
+      "lane": "R_0081_0",
+      "capacity": 1,
+      "start_pos": 31.88,
+      "end_pos": 36.86,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_122_0",
+      "lane": "R_0082_0",
+      "capacity": 1,
+      "start_pos": 2.0,
+      "end_pos": 7.05,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_122_1",
+      "lane": "R_0082_0",
+      "capacity": 1,
+      "start_pos": 7.05,
+      "end_pos": 12.1,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_122_2",
+      "lane": "R_0082_0",
+      "capacity": 1,
+      "start_pos": 12.1,
+      "end_pos": 17.15,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_122_3",
+      "lane": "R_0082_0",
+      "capacity": 1,
+      "start_pos": 17.15,
+      "end_pos": 22.2,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_122_4",
+      "lane": "R_0082_0",
+      "capacity": 1,
+      "start_pos": 22.2,
+      "end_pos": 27.25,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_122_5",
+      "lane": "R_0082_0",
+      "capacity": 1,
+      "start_pos": 27.25,
+      "end_pos": 32.3,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_122_6",
+      "lane": "R_0082_0",
+      "capacity": 1,
+      "start_pos": 32.3,
+      "end_pos": 37.35,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_123_0",
+      "lane": "R_0083_0",
+      "capacity": 1,
+      "start_pos": 2.0,
+      "end_pos": 7.06,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_123_1",
+      "lane": "R_0083_0",
+      "capacity": 1,
+      "start_pos": 7.06,
+      "end_pos": 12.11,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_123_2",
+      "lane": "R_0083_0",
+      "capacity": 1,
+      "start_pos": 12.11,
+      "end_pos": 17.17,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_123_3",
+      "lane": "R_0083_0",
+      "capacity": 1,
+      "start_pos": 17.17,
+      "end_pos": 22.22,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_123_4",
+      "lane": "R_0083_0",
+      "capacity": 1,
+      "start_pos": 22.22,
+      "end_pos": 27.28,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_123_5",
+      "lane": "R_0083_0",
+      "capacity": 1,
+      "start_pos": 27.28,
+      "end_pos": 32.33,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_123_6",
+      "lane": "R_0083_0",
+      "capacity": 1,
+      "start_pos": 32.33,
+      "end_pos": 37.39,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_124_0",
+      "lane": "R_0084_0",
+      "capacity": 1,
+      "start_pos": 2.0,
+      "end_pos": 7.13,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_124_1",
+      "lane": "R_0084_0",
+      "capacity": 1,
+      "start_pos": 7.13,
+      "end_pos": 12.26,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_124_2",
+      "lane": "R_0084_0",
+      "capacity": 1,
+      "start_pos": 12.26,
+      "end_pos": 17.39,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_124_3",
+      "lane": "R_0084_0",
+      "capacity": 1,
+      "start_pos": 17.39,
+      "end_pos": 22.52,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_124_4",
+      "lane": "R_0084_0",
+      "capacity": 1,
+      "start_pos": 22.52,
+      "end_pos": 27.65,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_124_5",
+      "lane": "R_0084_0",
+      "capacity": 1,
+      "start_pos": 27.65,
+      "end_pos": 32.78,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_124_6",
+      "lane": "R_0084_0",
+      "capacity": 1,
+      "start_pos": 32.78,
+      "end_pos": 37.91,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_125_0",
+      "lane": "R_0085_0",
+      "capacity": 1,
+      "start_pos": 2.0,
+      "end_pos": 7.13,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_125_1",
+      "lane": "R_0085_0",
+      "capacity": 1,
+      "start_pos": 7.13,
+      "end_pos": 12.26,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_125_2",
+      "lane": "R_0085_0",
+      "capacity": 1,
+      "start_pos": 12.26,
+      "end_pos": 17.39,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_125_3",
+      "lane": "R_0085_0",
+      "capacity": 1,
+      "start_pos": 17.39,
+      "end_pos": 22.52,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_125_4",
+      "lane": "R_0085_0",
+      "capacity": 1,
+      "start_pos": 22.52,
+      "end_pos": 27.65,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_125_5",
+      "lane": "R_0085_0",
+      "capacity": 1,
+      "start_pos": 27.65,
+      "end_pos": 32.78,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_125_6",
+      "lane": "R_0085_0",
+      "capacity": 1,
+      "start_pos": 32.78,
+      "end_pos": 37.91,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_126_0",
+      "lane": "R_0086_0",
+      "capacity": 1,
+      "start_pos": 2.0,
+      "end_pos": 6.52,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_126_1",
+      "lane": "R_0086_0",
+      "capacity": 1,
+      "start_pos": 6.52,
+      "end_pos": 11.04,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_126_2",
+      "lane": "R_0086_0",
+      "capacity": 1,
+      "start_pos": 11.04,
+      "end_pos": 15.57,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_126_3",
+      "lane": "R_0086_0",
+      "capacity": 1,
+      "start_pos": 15.57,
+      "end_pos": 20.09,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_126_4",
+      "lane": "R_0086_0",
+      "capacity": 1,
+      "start_pos": 20.09,
+      "end_pos": 24.61,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_126_5",
+      "lane": "R_0086_0",
+      "capacity": 1,
+      "start_pos": 24.61,
+      "end_pos": 29.14,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_126_6",
+      "lane": "R_0086_0",
+      "capacity": 1,
+      "start_pos": 29.13,
+      "end_pos": 33.66,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_126_7",
+      "lane": "R_0086_0",
+      "capacity": 1,
+      "start_pos": 33.66,
+      "end_pos": 38.18,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_127_0",
+      "lane": "R_0087_0",
+      "capacity": 1,
+      "start_pos": 2.0,
+      "end_pos": 6.69,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_127_1",
+      "lane": "R_0087_0",
+      "capacity": 1,
+      "start_pos": 6.69,
+      "end_pos": 11.38,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_127_2",
+      "lane": "R_0087_0",
+      "capacity": 1,
+      "start_pos": 11.38,
+      "end_pos": 16.07,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_127_3",
+      "lane": "R_0087_0",
+      "capacity": 1,
+      "start_pos": 16.07,
+      "end_pos": 20.76,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_128_0",
+      "lane": "R_0088_0",
+      "capacity": 1,
+      "start_pos": 2.0,
+      "end_pos": 6.6,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_128_1",
+      "lane": "R_0088_0",
+      "capacity": 1,
+      "start_pos": 6.6,
+      "end_pos": 11.2,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_128_2",
+      "lane": "R_0088_0",
+      "capacity": 1,
+      "start_pos": 11.2,
+      "end_pos": 15.81,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_128_3",
+      "lane": "R_0088_0",
+      "capacity": 1,
+      "start_pos": 15.81,
+      "end_pos": 20.41,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_128_4",
+      "lane": "R_0088_0",
+      "capacity": 1,
+      "start_pos": 20.41,
+      "end_pos": 25.01,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_128_5",
+      "lane": "R_0088_0",
+      "capacity": 1,
+      "start_pos": 25.01,
+      "end_pos": 29.61,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_128_6",
+      "lane": "R_0088_0",
+      "capacity": 1,
+      "start_pos": 29.61,
+      "end_pos": 34.22,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_128_7",
+      "lane": "R_0088_0",
+      "capacity": 1,
+      "start_pos": 34.22,
+      "end_pos": 38.82,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_128_8",
+      "lane": "R_0088_0",
+      "capacity": 1,
+      "start_pos": 38.82,
+      "end_pos": 43.42,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_129_0",
+      "lane": "R_0089_0",
+      "capacity": 1,
+      "start_pos": 2.0,
+      "end_pos": 6.56,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_129_1",
+      "lane": "R_0089_0",
+      "capacity": 1,
+      "start_pos": 6.56,
+      "end_pos": 11.13,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_129_2",
+      "lane": "R_0089_0",
+      "capacity": 1,
+      "start_pos": 11.13,
+      "end_pos": 15.69,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_129_3",
+      "lane": "R_0089_0",
+      "capacity": 1,
+      "start_pos": 15.69,
+      "end_pos": 20.25,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_129_4",
+      "lane": "R_0089_0",
+      "capacity": 1,
+      "start_pos": 20.25,
+      "end_pos": 24.82,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_129_5",
+      "lane": "R_0089_0",
+      "capacity": 1,
+      "start_pos": 24.82,
+      "end_pos": 29.38,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_129_6",
+      "lane": "R_0089_0",
+      "capacity": 1,
+      "start_pos": 29.38,
+      "end_pos": 33.94,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_129_7",
+      "lane": "R_0089_0",
+      "capacity": 1,
+      "start_pos": 33.94,
+      "end_pos": 38.51,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_129_8",
+      "lane": "R_0089_0",
+      "capacity": 1,
+      "start_pos": 38.51,
+      "end_pos": 43.07,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_13_0",
+      "lane": "-R_0040#0_0",
+      "capacity": 1,
+      "start_pos": 2.0,
+      "end_pos": 6.5,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_13_1",
+      "lane": "-R_0040#0_0",
+      "capacity": 1,
+      "start_pos": 6.5,
+      "end_pos": 11.0,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_13_2",
+      "lane": "-R_0040#0_0",
+      "capacity": 1,
+      "start_pos": 11.0,
+      "end_pos": 15.5,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_13_3",
+      "lane": "-R_0040#0_0",
+      "capacity": 1,
+      "start_pos": 15.5,
+      "end_pos": 20.0,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_13_4",
+      "lane": "-R_0040#0_0",
+      "capacity": 1,
+      "start_pos": 20.0,
+      "end_pos": 24.5,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_13_5",
+      "lane": "-R_0040#0_0",
+      "capacity": 1,
+      "start_pos": 24.5,
+      "end_pos": 29.0,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_13_6",
+      "lane": "-R_0040#0_0",
+      "capacity": 1,
+      "start_pos": 29.0,
+      "end_pos": 33.5,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_13_7",
+      "lane": "-R_0040#0_0",
+      "capacity": 1,
+      "start_pos": 33.5,
+      "end_pos": 38.0,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_130_0",
+      "lane": "R_0090_0",
+      "capacity": 1,
+      "start_pos": 2.0,
+      "end_pos": 6.58,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_130_1",
+      "lane": "R_0090_0",
+      "capacity": 1,
+      "start_pos": 6.58,
+      "end_pos": 11.16,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_130_2",
+      "lane": "R_0090_0",
+      "capacity": 1,
+      "start_pos": 11.16,
+      "end_pos": 15.74,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_130_3",
+      "lane": "R_0090_0",
+      "capacity": 1,
+      "start_pos": 15.74,
+      "end_pos": 20.32,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_130_4",
+      "lane": "R_0090_0",
+      "capacity": 1,
+      "start_pos": 20.32,
+      "end_pos": 24.89,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_130_5",
+      "lane": "R_0090_0",
+      "capacity": 1,
+      "start_pos": 24.89,
+      "end_pos": 29.47,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_130_6",
+      "lane": "R_0090_0",
+      "capacity": 1,
+      "start_pos": 29.47,
+      "end_pos": 34.05,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_130_7",
+      "lane": "R_0090_0",
+      "capacity": 1,
+      "start_pos": 34.05,
+      "end_pos": 38.63,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_130_8",
+      "lane": "R_0090_0",
+      "capacity": 1,
+      "start_pos": 38.63,
+      "end_pos": 43.21,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_131_0",
+      "lane": "R_0091_0",
+      "capacity": 1,
+      "start_pos": 2.0,
+      "end_pos": 6.65,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_131_1",
+      "lane": "R_0091_0",
+      "capacity": 1,
+      "start_pos": 6.65,
+      "end_pos": 11.3,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_131_2",
+      "lane": "R_0091_0",
+      "capacity": 1,
+      "start_pos": 11.3,
+      "end_pos": 15.95,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_131_3",
+      "lane": "R_0091_0",
+      "capacity": 1,
+      "start_pos": 15.95,
+      "end_pos": 20.59,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_131_4",
+      "lane": "R_0091_0",
+      "capacity": 1,
+      "start_pos": 20.59,
+      "end_pos": 25.24,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_131_5",
+      "lane": "R_0091_0",
+      "capacity": 1,
+      "start_pos": 25.24,
+      "end_pos": 29.89,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_131_6",
+      "lane": "R_0091_0",
+      "capacity": 1,
+      "start_pos": 29.89,
+      "end_pos": 34.54,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_132_0",
+      "lane": "R_0092_0",
+      "capacity": 1,
+      "start_pos": 2.0,
+      "end_pos": 6.67,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_132_1",
+      "lane": "R_0092_0",
+      "capacity": 1,
+      "start_pos": 6.67,
+      "end_pos": 11.35,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_132_2",
+      "lane": "R_0092_0",
+      "capacity": 1,
+      "start_pos": 11.35,
+      "end_pos": 16.02,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_132_3",
+      "lane": "R_0092_0",
+      "capacity": 1,
+      "start_pos": 16.02,
+      "end_pos": 20.7,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_132_4",
+      "lane": "R_0092_0",
+      "capacity": 1,
+      "start_pos": 20.7,
+      "end_pos": 25.37,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_133_0",
+      "lane": "R_0093_0",
+      "capacity": 1,
+      "start_pos": 2.0,
+      "end_pos": 7.4,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_133_1",
+      "lane": "R_0093_0",
+      "capacity": 1,
+      "start_pos": 7.4,
+      "end_pos": 12.8,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_133_2",
+      "lane": "R_0093_0",
+      "capacity": 1,
+      "start_pos": 12.8,
+      "end_pos": 18.2,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_134_0",
+      "lane": "R_0094_0",
+      "capacity": 1,
+      "start_pos": 2.0,
+      "end_pos": 6.71,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_134_1",
+      "lane": "R_0094_0",
+      "capacity": 1,
+      "start_pos": 6.71,
+      "end_pos": 11.43,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_134_2",
+      "lane": "R_0094_0",
+      "capacity": 1,
+      "start_pos": 11.43,
+      "end_pos": 16.14,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_135_0",
+      "lane": "R_0095_0",
+      "capacity": 1,
+      "start_pos": 0.0,
+      "end_pos": 4.86,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_135_1",
+      "lane": "R_0095_0",
+      "capacity": 1,
+      "start_pos": 4.86,
+      "end_pos": 9.71,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_135_2",
+      "lane": "R_0095_0",
+      "capacity": 1,
+      "start_pos": 9.71,
+      "end_pos": 14.57,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_136_0",
+      "lane": "R_0096_0",
+      "capacity": 1,
+      "start_pos": 2.0,
+      "end_pos": 8.25,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_136_1",
+      "lane": "R_0096_0",
+      "capacity": 1,
+      "start_pos": 8.25,
+      "end_pos": 14.49,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_138_0",
+      "lane": "R_0098_0",
+      "capacity": 1,
+      "start_pos": 2.0,
+      "end_pos": 7.2,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_138_1",
+      "lane": "R_0098_0",
+      "capacity": 1,
+      "start_pos": 7.2,
+      "end_pos": 12.4,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_138_2",
+      "lane": "R_0098_0",
+      "capacity": 1,
+      "start_pos": 12.4,
+      "end_pos": 17.6,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_138_3",
+      "lane": "R_0098_0",
+      "capacity": 1,
+      "start_pos": 17.6,
+      "end_pos": 22.8,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_138_4",
+      "lane": "R_0098_0",
+      "capacity": 1,
+      "start_pos": 22.8,
+      "end_pos": 28.0,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_14_0",
+      "lane": "-R_0040#1_0",
+      "capacity": 1,
+      "start_pos": 2.0,
+      "end_pos": 7.2,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_14_1",
+      "lane": "-R_0040#1_0",
+      "capacity": 1,
+      "start_pos": 7.2,
+      "end_pos": 12.4,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_14_2",
+      "lane": "-R_0040#1_0",
+      "capacity": 1,
+      "start_pos": 12.4,
+      "end_pos": 17.6,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_14_3",
+      "lane": "-R_0040#1_0",
+      "capacity": 1,
+      "start_pos": 17.6,
+      "end_pos": 22.8,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_14_4",
+      "lane": "-R_0040#1_0",
+      "capacity": 1,
+      "start_pos": 22.8,
+      "end_pos": 28.0,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_15_0",
+      "lane": "-R_0040#2_0",
+      "capacity": 1,
+      "start_pos": 2.0,
+      "end_pos": 6.5,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_15_1",
+      "lane": "-R_0040#2_0",
+      "capacity": 1,
+      "start_pos": 6.5,
+      "end_pos": 11.0,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_15_2",
+      "lane": "-R_0040#2_0",
+      "capacity": 1,
+      "start_pos": 11.0,
+      "end_pos": 15.5,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_15_3",
+      "lane": "-R_0040#2_0",
+      "capacity": 1,
+      "start_pos": 15.5,
+      "end_pos": 20.0,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_15_4",
+      "lane": "-R_0040#2_0",
+      "capacity": 1,
+      "start_pos": 20.0,
+      "end_pos": 24.5,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_16_0",
+      "lane": "-R_0041#0_0",
+      "capacity": 1,
+      "start_pos": 2.0,
+      "end_pos": 7.0,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_16_1",
+      "lane": "-R_0041#0_0",
+      "capacity": 1,
+      "start_pos": 7.0,
+      "end_pos": 12.0,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_16_2",
+      "lane": "-R_0041#0_0",
+      "capacity": 1,
+      "start_pos": 12.0,
+      "end_pos": 17.0,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_16_3",
+      "lane": "-R_0041#0_0",
+      "capacity": 1,
+      "start_pos": 17.0,
+      "end_pos": 22.0,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_16_4",
+      "lane": "-R_0041#0_0",
+      "capacity": 1,
+      "start_pos": 22.0,
+      "end_pos": 27.0,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_16_5",
+      "lane": "-R_0041#0_0",
+      "capacity": 1,
+      "start_pos": 27.0,
+      "end_pos": 32.0,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_17_0",
+      "lane": "-R_0041#1_0",
+      "capacity": 1,
+      "start_pos": 2.0,
+      "end_pos": 7.2,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_17_1",
+      "lane": "-R_0041#1_0",
+      "capacity": 1,
+      "start_pos": 7.2,
+      "end_pos": 12.4,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_17_2",
+      "lane": "-R_0041#1_0",
+      "capacity": 1,
+      "start_pos": 12.4,
+      "end_pos": 17.6,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_17_3",
+      "lane": "-R_0041#1_0",
+      "capacity": 1,
+      "start_pos": 17.6,
+      "end_pos": 22.8,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_17_4",
+      "lane": "-R_0041#1_0",
+      "capacity": 1,
+      "start_pos": 22.8,
+      "end_pos": 28.0,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_18_0",
+      "lane": "-R_0041#2_0",
+      "capacity": 1,
+      "start_pos": 2.0,
+      "end_pos": 6.5,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_18_1",
+      "lane": "-R_0041#2_0",
+      "capacity": 1,
+      "start_pos": 6.5,
+      "end_pos": 11.0,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_18_2",
+      "lane": "-R_0041#2_0",
+      "capacity": 1,
+      "start_pos": 11.0,
+      "end_pos": 15.5,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_18_3",
+      "lane": "-R_0041#2_0",
+      "capacity": 1,
+      "start_pos": 15.5,
+      "end_pos": 20.0,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_18_4",
+      "lane": "-R_0041#2_0",
+      "capacity": 1,
+      "start_pos": 20.0,
+      "end_pos": 24.5,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_18_5",
+      "lane": "-R_0041#2_0",
+      "capacity": 1,
+      "start_pos": 24.5,
+      "end_pos": 29.0,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_18_6",
+      "lane": "-R_0041#2_0",
+      "capacity": 1,
+      "start_pos": 29.0,
+      "end_pos": 33.5,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_18_7",
+      "lane": "-R_0041#2_0",
+      "capacity": 1,
+      "start_pos": 33.5,
+      "end_pos": 38.0,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_19_0",
+      "lane": "-R_0042#0_0",
+      "capacity": 1,
+      "start_pos": 2.0,
+      "end_pos": 6.5,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_19_1",
+      "lane": "-R_0042#0_0",
+      "capacity": 1,
+      "start_pos": 6.5,
+      "end_pos": 11.0,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_19_2",
+      "lane": "-R_0042#0_0",
+      "capacity": 1,
+      "start_pos": 11.0,
+      "end_pos": 15.5,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_19_3",
+      "lane": "-R_0042#0_0",
+      "capacity": 1,
+      "start_pos": 15.5,
+      "end_pos": 20.0,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_19_4",
+      "lane": "-R_0042#0_0",
+      "capacity": 1,
+      "start_pos": 20.0,
+      "end_pos": 24.5,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_19_5",
+      "lane": "-R_0042#0_0",
+      "capacity": 1,
+      "start_pos": 24.5,
+      "end_pos": 29.0,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_19_6",
+      "lane": "-R_0042#0_0",
+      "capacity": 1,
+      "start_pos": 29.0,
+      "end_pos": 33.5,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_19_7",
+      "lane": "-R_0042#0_0",
+      "capacity": 1,
+      "start_pos": 33.5,
+      "end_pos": 38.0,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_2_0",
+      "lane": "-R_0033#1_0",
+      "capacity": 1,
+      "start_pos": 2.0,
+      "end_pos": 7.62,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_2_1",
+      "lane": "-R_0033#1_0",
+      "capacity": 1,
+      "start_pos": 7.62,
+      "end_pos": 13.23,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_20_0",
+      "lane": "-R_0042#1_0",
+      "capacity": 1,
+      "start_pos": 2.0,
+      "end_pos": 7.2,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_20_1",
+      "lane": "-R_0042#1_0",
+      "capacity": 1,
+      "start_pos": 7.2,
+      "end_pos": 12.4,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_20_2",
+      "lane": "-R_0042#1_0",
+      "capacity": 1,
+      "start_pos": 12.4,
+      "end_pos": 17.6,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_20_3",
+      "lane": "-R_0042#1_0",
+      "capacity": 1,
+      "start_pos": 17.6,
+      "end_pos": 22.8,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_20_4",
+      "lane": "-R_0042#1_0",
+      "capacity": 1,
+      "start_pos": 22.8,
+      "end_pos": 28.0,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_21_0",
+      "lane": "-R_0042#2_0",
+      "capacity": 1,
+      "start_pos": 2.0,
+      "end_pos": 6.75,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_21_1",
+      "lane": "-R_0042#2_0",
+      "capacity": 1,
+      "start_pos": 6.75,
+      "end_pos": 11.5,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_21_2",
+      "lane": "-R_0042#2_0",
+      "capacity": 1,
+      "start_pos": 11.5,
+      "end_pos": 16.25,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_21_3",
+      "lane": "-R_0042#2_0",
+      "capacity": 1,
+      "start_pos": 16.25,
+      "end_pos": 21.0,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_21_4",
+      "lane": "-R_0042#2_0",
+      "capacity": 1,
+      "start_pos": 21.0,
+      "end_pos": 25.75,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_21_5",
+      "lane": "-R_0042#2_0",
+      "capacity": 1,
+      "start_pos": 25.75,
+      "end_pos": 30.5,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_21_6",
+      "lane": "-R_0042#2_0",
+      "capacity": 1,
+      "start_pos": 30.5,
+      "end_pos": 35.25,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_21_7",
+      "lane": "-R_0042#2_0",
+      "capacity": 1,
+      "start_pos": 35.25,
+      "end_pos": 40.0,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_22_0",
+      "lane": "-R_0043#0_0",
+      "capacity": 1,
+      "start_pos": 2.0,
+      "end_pos": 6.78,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_22_1",
+      "lane": "-R_0043#0_0",
+      "capacity": 1,
+      "start_pos": 6.78,
+      "end_pos": 11.56,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_22_2",
+      "lane": "-R_0043#0_0",
+      "capacity": 1,
+      "start_pos": 11.56,
+      "end_pos": 16.33,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_22_3",
+      "lane": "-R_0043#0_0",
+      "capacity": 1,
+      "start_pos": 16.33,
+      "end_pos": 21.11,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_22_4",
+      "lane": "-R_0043#0_0",
+      "capacity": 1,
+      "start_pos": 21.11,
+      "end_pos": 25.89,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_22_5",
+      "lane": "-R_0043#0_0",
+      "capacity": 1,
+      "start_pos": 25.89,
+      "end_pos": 30.67,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_22_6",
+      "lane": "-R_0043#0_0",
+      "capacity": 1,
+      "start_pos": 30.67,
+      "end_pos": 35.44,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_22_7",
+      "lane": "-R_0043#0_0",
+      "capacity": 1,
+      "start_pos": 35.44,
+      "end_pos": 40.22,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_22_8",
+      "lane": "-R_0043#0_0",
+      "capacity": 1,
+      "start_pos": 40.22,
+      "end_pos": 45.0,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_23_0",
+      "lane": "-R_0043#1_0",
+      "capacity": 1,
+      "start_pos": 2.0,
+      "end_pos": 7.2,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_23_1",
+      "lane": "-R_0043#1_0",
+      "capacity": 1,
+      "start_pos": 7.2,
+      "end_pos": 12.4,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_23_2",
+      "lane": "-R_0043#1_0",
+      "capacity": 1,
+      "start_pos": 12.4,
+      "end_pos": 17.6,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_23_3",
+      "lane": "-R_0043#1_0",
+      "capacity": 1,
+      "start_pos": 17.6,
+      "end_pos": 22.8,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_23_4",
+      "lane": "-R_0043#1_0",
+      "capacity": 1,
+      "start_pos": 22.8,
+      "end_pos": 28.0,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_24_0",
+      "lane": "-R_0043#2_0",
+      "capacity": 1,
+      "start_pos": 2.0,
+      "end_pos": 6.5,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_24_1",
+      "lane": "-R_0043#2_0",
+      "capacity": 1,
+      "start_pos": 6.5,
+      "end_pos": 11.0,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_24_2",
+      "lane": "-R_0043#2_0",
+      "capacity": 1,
+      "start_pos": 11.0,
+      "end_pos": 15.5,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_24_3",
+      "lane": "-R_0043#2_0",
+      "capacity": 1,
+      "start_pos": 15.5,
+      "end_pos": 20.0,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_24_4",
+      "lane": "-R_0043#2_0",
+      "capacity": 1,
+      "start_pos": 20.0,
+      "end_pos": 24.5,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_24_5",
+      "lane": "-R_0043#2_0",
+      "capacity": 1,
+      "start_pos": 24.5,
+      "end_pos": 29.0,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_24_6",
+      "lane": "-R_0043#2_0",
+      "capacity": 1,
+      "start_pos": 29.0,
+      "end_pos": 33.5,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_24_7",
+      "lane": "-R_0043#2_0",
+      "capacity": 1,
+      "start_pos": 33.5,
+      "end_pos": 38.0,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_25_0",
+      "lane": "-R_0047_0",
+      "capacity": 1,
+      "start_pos": 2.0,
+      "end_pos": 6.9,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_25_1",
+      "lane": "-R_0047_0",
+      "capacity": 1,
+      "start_pos": 6.9,
+      "end_pos": 11.8,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_25_2",
+      "lane": "-R_0047_0",
+      "capacity": 1,
+      "start_pos": 11.8,
+      "end_pos": 16.7,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_25_3",
+      "lane": "-R_0047_0",
+      "capacity": 1,
+      "start_pos": 16.7,
+      "end_pos": 21.59,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_25_4",
+      "lane": "-R_0047_0",
+      "capacity": 1,
+      "start_pos": 21.59,
+      "end_pos": 26.49,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_25_5",
+      "lane": "-R_0047_0",
+      "capacity": 1,
+      "start_pos": 26.49,
+      "end_pos": 31.39,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_25_6",
+      "lane": "-R_0047_0",
+      "capacity": 1,
+      "start_pos": 31.39,
+      "end_pos": 36.29,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_25_7",
+      "lane": "-R_0047_0",
+      "capacity": 1,
+      "start_pos": 36.29,
+      "end_pos": 41.19,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_26_0",
+      "lane": "-R_0078_0",
+      "capacity": 1,
+      "start_pos": 2.0,
+      "end_pos": 7.53,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_26_1",
+      "lane": "-R_0078_0",
+      "capacity": 1,
+      "start_pos": 7.53,
+      "end_pos": 13.06,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_27_0",
+      "lane": "-R_0079_0",
+      "capacity": 1,
+      "start_pos": 2.0,
+      "end_pos": 6.7,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_27_1",
+      "lane": "-R_0079_0",
+      "capacity": 1,
+      "start_pos": 6.7,
+      "end_pos": 11.39,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_27_2",
+      "lane": "-R_0079_0",
+      "capacity": 1,
+      "start_pos": 11.39,
+      "end_pos": 16.09,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_27_3",
+      "lane": "-R_0079_0",
+      "capacity": 1,
+      "start_pos": 16.09,
+      "end_pos": 20.79,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_27_4",
+      "lane": "-R_0079_0",
+      "capacity": 1,
+      "start_pos": 20.79,
+      "end_pos": 25.49,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_27_5",
+      "lane": "-R_0079_0",
+      "capacity": 1,
+      "start_pos": 25.49,
+      "end_pos": 30.18,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_27_6",
+      "lane": "-R_0079_0",
+      "capacity": 1,
+      "start_pos": 30.18,
+      "end_pos": 34.88,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_28_0",
+      "lane": "-R_0080_0",
+      "capacity": 1,
+      "start_pos": 2.0,
+      "end_pos": 6.96,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_28_1",
+      "lane": "-R_0080_0",
+      "capacity": 1,
+      "start_pos": 6.96,
+      "end_pos": 11.91,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_28_2",
+      "lane": "-R_0080_0",
+      "capacity": 1,
+      "start_pos": 11.91,
+      "end_pos": 16.87,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_28_3",
+      "lane": "-R_0080_0",
+      "capacity": 1,
+      "start_pos": 16.87,
+      "end_pos": 21.83,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_28_4",
+      "lane": "-R_0080_0",
+      "capacity": 1,
+      "start_pos": 21.83,
+      "end_pos": 26.79,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_28_5",
+      "lane": "-R_0080_0",
+      "capacity": 1,
+      "start_pos": 26.79,
+      "end_pos": 31.74,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_28_6",
+      "lane": "-R_0080_0",
+      "capacity": 1,
+      "start_pos": 31.74,
+      "end_pos": 36.7,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_29_0",
+      "lane": "-R_0081_0",
+      "capacity": 1,
+      "start_pos": 2.0,
+      "end_pos": 6.98,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_29_1",
+      "lane": "-R_0081_0",
+      "capacity": 1,
+      "start_pos": 6.98,
+      "end_pos": 11.96,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_29_2",
+      "lane": "-R_0081_0",
+      "capacity": 1,
+      "start_pos": 11.96,
+      "end_pos": 16.94,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_29_3",
+      "lane": "-R_0081_0",
+      "capacity": 1,
+      "start_pos": 16.94,
+      "end_pos": 21.92,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_29_4",
+      "lane": "-R_0081_0",
+      "capacity": 1,
+      "start_pos": 21.92,
+      "end_pos": 26.9,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_29_5",
+      "lane": "-R_0081_0",
+      "capacity": 1,
+      "start_pos": 26.9,
+      "end_pos": 31.88,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_29_6",
+      "lane": "-R_0081_0",
+      "capacity": 1,
+      "start_pos": 31.88,
+      "end_pos": 36.86,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_30_0",
+      "lane": "-R_0082_0",
+      "capacity": 1,
+      "start_pos": 2.0,
+      "end_pos": 7.05,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_30_1",
+      "lane": "-R_0082_0",
+      "capacity": 1,
+      "start_pos": 7.05,
+      "end_pos": 12.1,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_30_2",
+      "lane": "-R_0082_0",
+      "capacity": 1,
+      "start_pos": 12.1,
+      "end_pos": 17.15,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_30_3",
+      "lane": "-R_0082_0",
+      "capacity": 1,
+      "start_pos": 17.15,
+      "end_pos": 22.2,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_30_4",
+      "lane": "-R_0082_0",
+      "capacity": 1,
+      "start_pos": 22.2,
+      "end_pos": 27.25,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_30_5",
+      "lane": "-R_0082_0",
+      "capacity": 1,
+      "start_pos": 27.25,
+      "end_pos": 32.3,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_30_6",
+      "lane": "-R_0082_0",
+      "capacity": 1,
+      "start_pos": 32.3,
+      "end_pos": 37.35,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_31_0",
+      "lane": "-R_0083_0",
+      "capacity": 1,
+      "start_pos": 2.0,
+      "end_pos": 7.06,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_31_1",
+      "lane": "-R_0083_0",
+      "capacity": 1,
+      "start_pos": 7.06,
+      "end_pos": 12.11,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_31_2",
+      "lane": "-R_0083_0",
+      "capacity": 1,
+      "start_pos": 12.11,
+      "end_pos": 17.17,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_31_3",
+      "lane": "-R_0083_0",
+      "capacity": 1,
+      "start_pos": 17.17,
+      "end_pos": 22.22,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_31_4",
+      "lane": "-R_0083_0",
+      "capacity": 1,
+      "start_pos": 22.22,
+      "end_pos": 27.28,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_31_5",
+      "lane": "-R_0083_0",
+      "capacity": 1,
+      "start_pos": 27.28,
+      "end_pos": 32.33,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_31_6",
+      "lane": "-R_0083_0",
+      "capacity": 1,
+      "start_pos": 32.33,
+      "end_pos": 37.39,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_32_0",
+      "lane": "-R_0084_0",
+      "capacity": 1,
+      "start_pos": 2.0,
+      "end_pos": 7.13,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_32_1",
+      "lane": "-R_0084_0",
+      "capacity": 1,
+      "start_pos": 7.13,
+      "end_pos": 12.26,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_32_2",
+      "lane": "-R_0084_0",
+      "capacity": 1,
+      "start_pos": 12.26,
+      "end_pos": 17.39,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_32_3",
+      "lane": "-R_0084_0",
+      "capacity": 1,
+      "start_pos": 17.39,
+      "end_pos": 22.52,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_32_4",
+      "lane": "-R_0084_0",
+      "capacity": 1,
+      "start_pos": 22.52,
+      "end_pos": 27.65,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_32_5",
+      "lane": "-R_0084_0",
+      "capacity": 1,
+      "start_pos": 27.65,
+      "end_pos": 32.78,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_32_6",
+      "lane": "-R_0084_0",
+      "capacity": 1,
+      "start_pos": 32.78,
+      "end_pos": 37.91,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_33_0",
+      "lane": "-R_0085_0",
+      "capacity": 1,
+      "start_pos": 2.0,
+      "end_pos": 7.13,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_33_1",
+      "lane": "-R_0085_0",
+      "capacity": 1,
+      "start_pos": 7.13,
+      "end_pos": 12.26,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_33_2",
+      "lane": "-R_0085_0",
+      "capacity": 1,
+      "start_pos": 12.26,
+      "end_pos": 17.39,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_33_3",
+      "lane": "-R_0085_0",
+      "capacity": 1,
+      "start_pos": 17.39,
+      "end_pos": 22.52,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_33_4",
+      "lane": "-R_0085_0",
+      "capacity": 1,
+      "start_pos": 22.52,
+      "end_pos": 27.65,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_33_5",
+      "lane": "-R_0085_0",
+      "capacity": 1,
+      "start_pos": 27.65,
+      "end_pos": 32.78,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_33_6",
+      "lane": "-R_0085_0",
+      "capacity": 1,
+      "start_pos": 32.78,
+      "end_pos": 37.91,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_34_0",
+      "lane": "-R_0086_0",
+      "capacity": 1,
+      "start_pos": 2.0,
+      "end_pos": 6.52,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_34_1",
+      "lane": "-R_0086_0",
+      "capacity": 1,
+      "start_pos": 6.52,
+      "end_pos": 11.04,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_34_2",
+      "lane": "-R_0086_0",
+      "capacity": 1,
+      "start_pos": 11.04,
+      "end_pos": 15.57,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_34_3",
+      "lane": "-R_0086_0",
+      "capacity": 1,
+      "start_pos": 15.57,
+      "end_pos": 20.09,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_34_4",
+      "lane": "-R_0086_0",
+      "capacity": 1,
+      "start_pos": 20.09,
+      "end_pos": 24.61,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_34_5",
+      "lane": "-R_0086_0",
+      "capacity": 1,
+      "start_pos": 24.61,
+      "end_pos": 29.14,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_34_6",
+      "lane": "-R_0086_0",
+      "capacity": 1,
+      "start_pos": 29.13,
+      "end_pos": 33.66,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_34_7",
+      "lane": "-R_0086_0",
+      "capacity": 1,
+      "start_pos": 33.66,
+      "end_pos": 38.18,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_35_0",
+      "lane": "-R_0088_0",
+      "capacity": 1,
+      "start_pos": 2.0,
+      "end_pos": 6.6,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_35_1",
+      "lane": "-R_0088_0",
+      "capacity": 1,
+      "start_pos": 6.6,
+      "end_pos": 11.2,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_35_2",
+      "lane": "-R_0088_0",
+      "capacity": 1,
+      "start_pos": 11.2,
+      "end_pos": 15.81,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_35_3",
+      "lane": "-R_0088_0",
+      "capacity": 1,
+      "start_pos": 15.81,
+      "end_pos": 20.41,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_35_4",
+      "lane": "-R_0088_0",
+      "capacity": 1,
+      "start_pos": 20.41,
+      "end_pos": 25.01,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_35_5",
+      "lane": "-R_0088_0",
+      "capacity": 1,
+      "start_pos": 25.01,
+      "end_pos": 29.61,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_35_6",
+      "lane": "-R_0088_0",
+      "capacity": 1,
+      "start_pos": 29.61,
+      "end_pos": 34.22,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_35_7",
+      "lane": "-R_0088_0",
+      "capacity": 1,
+      "start_pos": 34.22,
+      "end_pos": 38.82,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_35_8",
+      "lane": "-R_0088_0",
+      "capacity": 1,
+      "start_pos": 38.82,
+      "end_pos": 43.42,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_36_0",
+      "lane": "-R_0089_0",
+      "capacity": 1,
+      "start_pos": 2.0,
+      "end_pos": 6.56,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_36_1",
+      "lane": "-R_0089_0",
+      "capacity": 1,
+      "start_pos": 6.56,
+      "end_pos": 11.13,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_36_2",
+      "lane": "-R_0089_0",
+      "capacity": 1,
+      "start_pos": 11.13,
+      "end_pos": 15.69,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_36_3",
+      "lane": "-R_0089_0",
+      "capacity": 1,
+      "start_pos": 15.69,
+      "end_pos": 20.25,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_36_4",
+      "lane": "-R_0089_0",
+      "capacity": 1,
+      "start_pos": 20.25,
+      "end_pos": 24.82,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_36_5",
+      "lane": "-R_0089_0",
+      "capacity": 1,
+      "start_pos": 24.82,
+      "end_pos": 29.38,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_36_6",
+      "lane": "-R_0089_0",
+      "capacity": 1,
+      "start_pos": 29.38,
+      "end_pos": 33.94,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_36_7",
+      "lane": "-R_0089_0",
+      "capacity": 1,
+      "start_pos": 33.94,
+      "end_pos": 38.51,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_36_8",
+      "lane": "-R_0089_0",
+      "capacity": 1,
+      "start_pos": 38.51,
+      "end_pos": 43.07,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_37_0",
+      "lane": "-R_0090_0",
+      "capacity": 1,
+      "start_pos": 2.0,
+      "end_pos": 6.58,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_37_1",
+      "lane": "-R_0090_0",
+      "capacity": 1,
+      "start_pos": 6.58,
+      "end_pos": 11.16,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_37_2",
+      "lane": "-R_0090_0",
+      "capacity": 1,
+      "start_pos": 11.16,
+      "end_pos": 15.74,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_37_3",
+      "lane": "-R_0090_0",
+      "capacity": 1,
+      "start_pos": 15.74,
+      "end_pos": 20.32,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_37_4",
+      "lane": "-R_0090_0",
+      "capacity": 1,
+      "start_pos": 20.32,
+      "end_pos": 24.89,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_37_5",
+      "lane": "-R_0090_0",
+      "capacity": 1,
+      "start_pos": 24.89,
+      "end_pos": 29.47,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_37_6",
+      "lane": "-R_0090_0",
+      "capacity": 1,
+      "start_pos": 29.47,
+      "end_pos": 34.05,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_37_7",
+      "lane": "-R_0090_0",
+      "capacity": 1,
+      "start_pos": 34.05,
+      "end_pos": 38.63,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_37_8",
+      "lane": "-R_0090_0",
+      "capacity": 1,
+      "start_pos": 38.63,
+      "end_pos": 43.21,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_38_0",
+      "lane": "-R_0091_0",
+      "capacity": 1,
+      "start_pos": 2.0,
+      "end_pos": 6.66,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_38_1",
+      "lane": "-R_0091_0",
+      "capacity": 1,
+      "start_pos": 6.66,
+      "end_pos": 11.31,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_38_2",
+      "lane": "-R_0091_0",
+      "capacity": 1,
+      "start_pos": 11.31,
+      "end_pos": 15.97,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_38_3",
+      "lane": "-R_0091_0",
+      "capacity": 1,
+      "start_pos": 15.97,
+      "end_pos": 20.62,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_38_4",
+      "lane": "-R_0091_0",
+      "capacity": 1,
+      "start_pos": 20.62,
+      "end_pos": 25.28,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_38_5",
+      "lane": "-R_0091_0",
+      "capacity": 1,
+      "start_pos": 25.28,
+      "end_pos": 29.93,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_38_6",
+      "lane": "-R_0091_0",
+      "capacity": 1,
+      "start_pos": 29.93,
+      "end_pos": 34.59,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_39_0",
+      "lane": "-R_0092_0",
+      "capacity": 1,
+      "start_pos": 2.0,
+      "end_pos": 6.67,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_39_1",
+      "lane": "-R_0092_0",
+      "capacity": 1,
+      "start_pos": 6.67,
+      "end_pos": 11.35,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_39_2",
+      "lane": "-R_0092_0",
+      "capacity": 1,
+      "start_pos": 11.35,
+      "end_pos": 16.02,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_39_3",
+      "lane": "-R_0092_0",
+      "capacity": 1,
+      "start_pos": 16.02,
+      "end_pos": 20.7,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_39_4",
+      "lane": "-R_0092_0",
+      "capacity": 1,
+      "start_pos": 20.7,
+      "end_pos": 25.37,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_4_0",
+      "lane": "-R_0036#0_0",
+      "capacity": 1,
+      "start_pos": 2.0,
+      "end_pos": 6.5,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_4_1",
+      "lane": "-R_0036#0_0",
+      "capacity": 1,
+      "start_pos": 6.5,
+      "end_pos": 11.0,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_4_2",
+      "lane": "-R_0036#0_0",
+      "capacity": 1,
+      "start_pos": 11.0,
+      "end_pos": 15.5,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_4_3",
+      "lane": "-R_0036#0_0",
+      "capacity": 1,
+      "start_pos": 15.5,
+      "end_pos": 20.0,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_4_4",
+      "lane": "-R_0036#0_0",
+      "capacity": 1,
+      "start_pos": 20.0,
+      "end_pos": 24.5,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_4_5",
+      "lane": "-R_0036#0_0",
+      "capacity": 1,
+      "start_pos": 24.5,
+      "end_pos": 29.0,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_4_6",
+      "lane": "-R_0036#0_0",
+      "capacity": 1,
+      "start_pos": 29.0,
+      "end_pos": 33.5,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_4_7",
+      "lane": "-R_0036#0_0",
+      "capacity": 1,
+      "start_pos": 33.5,
+      "end_pos": 38.0,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_40_0",
+      "lane": "-R_0093_0",
+      "capacity": 1,
+      "start_pos": 2.0,
+      "end_pos": 7.4,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_40_1",
+      "lane": "-R_0093_0",
+      "capacity": 1,
+      "start_pos": 7.4,
+      "end_pos": 12.8,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_40_2",
+      "lane": "-R_0093_0",
+      "capacity": 1,
+      "start_pos": 12.8,
+      "end_pos": 18.2,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_41_0",
+      "lane": "-R_0094_0",
+      "capacity": 1,
+      "start_pos": 2.0,
+      "end_pos": 6.71,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_41_1",
+      "lane": "-R_0094_0",
+      "capacity": 1,
+      "start_pos": 6.71,
+      "end_pos": 11.43,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_41_2",
+      "lane": "-R_0094_0",
+      "capacity": 1,
+      "start_pos": 11.43,
+      "end_pos": 16.14,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_42_0",
+      "lane": "-R_0095_0",
+      "capacity": 1,
+      "start_pos": 2.0,
+      "end_pos": 6.5,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_42_1",
+      "lane": "-R_0095_0",
+      "capacity": 1,
+      "start_pos": 6.5,
+      "end_pos": 11.0,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_42_2",
+      "lane": "-R_0095_0",
+      "capacity": 1,
+      "start_pos": 11.0,
+      "end_pos": 15.5,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_43_0",
+      "lane": "-R_0096_0",
+      "capacity": 1,
+      "start_pos": 2.0,
+      "end_pos": 6.5,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_43_1",
+      "lane": "-R_0096_0",
+      "capacity": 1,
+      "start_pos": 6.5,
+      "end_pos": 11.0,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_43_2",
+      "lane": "-R_0096_0",
+      "capacity": 1,
+      "start_pos": 11.0,
+      "end_pos": 15.5,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_44_0",
+      "lane": "-R_0097_0",
+      "capacity": 1,
+      "start_pos": 2.0,
+      "end_pos": 8.7,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_44_1",
+      "lane": "-R_0097_0",
+      "capacity": 1,
+      "start_pos": 8.7,
+      "end_pos": 15.39,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_45_0",
+      "lane": "-R_0098_0",
+      "capacity": 1,
+      "start_pos": 2.0,
+      "end_pos": 7.2,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_45_1",
+      "lane": "-R_0098_0",
+      "capacity": 1,
+      "start_pos": 7.2,
+      "end_pos": 12.4,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_45_2",
+      "lane": "-R_0098_0",
+      "capacity": 1,
+      "start_pos": 12.4,
+      "end_pos": 17.6,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_45_3",
+      "lane": "-R_0098_0",
+      "capacity": 1,
+      "start_pos": 17.6,
+      "end_pos": 22.8,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_45_4",
+      "lane": "-R_0098_0",
+      "capacity": 1,
+      "start_pos": 22.8,
+      "end_pos": 28.0,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_47_0",
+      "lane": "R_0004_0",
+      "capacity": 1,
+      "start_pos": 2.0,
+      "end_pos": 6.71,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_47_1",
+      "lane": "R_0004_0",
+      "capacity": 1,
+      "start_pos": 6.71,
+      "end_pos": 11.41,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_47_2",
+      "lane": "R_0004_0",
+      "capacity": 1,
+      "start_pos": 11.41,
+      "end_pos": 16.12,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_47_3",
+      "lane": "R_0004_0",
+      "capacity": 1,
+      "start_pos": 16.12,
+      "end_pos": 20.83,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_48_0",
+      "lane": "R_0005_0",
+      "capacity": 1,
+      "start_pos": 2.0,
+      "end_pos": 6.71,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_48_1",
+      "lane": "R_0005_0",
+      "capacity": 1,
+      "start_pos": 6.71,
+      "end_pos": 11.43,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_48_2",
+      "lane": "R_0005_0",
+      "capacity": 1,
+      "start_pos": 11.43,
+      "end_pos": 16.14,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_48_3",
+      "lane": "R_0005_0",
+      "capacity": 1,
+      "start_pos": 16.14,
+      "end_pos": 20.86,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_49_0",
+      "lane": "R_0006_0",
+      "capacity": 1,
+      "start_pos": 2.0,
+      "end_pos": 6.7,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_49_1",
+      "lane": "R_0006_0",
+      "capacity": 1,
+      "start_pos": 6.7,
+      "end_pos": 11.39,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_49_2",
+      "lane": "R_0006_0",
+      "capacity": 1,
+      "start_pos": 11.39,
+      "end_pos": 16.09,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_49_3",
+      "lane": "R_0006_0",
+      "capacity": 1,
+      "start_pos": 16.09,
+      "end_pos": 20.79,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_5_0",
+      "lane": "-R_0036#1_0",
+      "capacity": 1,
+      "start_pos": 2.0,
+      "end_pos": 7.2,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_5_1",
+      "lane": "-R_0036#1_0",
+      "capacity": 1,
+      "start_pos": 7.2,
+      "end_pos": 12.4,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_5_2",
+      "lane": "-R_0036#1_0",
+      "capacity": 1,
+      "start_pos": 12.4,
+      "end_pos": 17.6,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_5_3",
+      "lane": "-R_0036#1_0",
+      "capacity": 1,
+      "start_pos": 17.6,
+      "end_pos": 22.8,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_5_4",
+      "lane": "-R_0036#1_0",
+      "capacity": 1,
+      "start_pos": 22.8,
+      "end_pos": 28.0,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_50_0",
+      "lane": "R_0007_0",
+      "capacity": 1,
+      "start_pos": 2.0,
+      "end_pos": 6.71,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_50_1",
+      "lane": "R_0007_0",
+      "capacity": 1,
+      "start_pos": 6.71,
+      "end_pos": 11.43,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_50_2",
+      "lane": "R_0007_0",
+      "capacity": 1,
+      "start_pos": 11.43,
+      "end_pos": 16.14,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_50_3",
+      "lane": "R_0007_0",
+      "capacity": 1,
+      "start_pos": 16.14,
+      "end_pos": 20.85,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_51_0",
+      "lane": "R_0008_0",
+      "capacity": 1,
+      "start_pos": 2.0,
+      "end_pos": 6.7,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_51_1",
+      "lane": "R_0008_0",
+      "capacity": 1,
+      "start_pos": 6.7,
+      "end_pos": 11.4,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_51_2",
+      "lane": "R_0008_0",
+      "capacity": 1,
+      "start_pos": 11.4,
+      "end_pos": 16.1,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_51_3",
+      "lane": "R_0008_0",
+      "capacity": 1,
+      "start_pos": 16.1,
+      "end_pos": 20.8,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_52_0",
+      "lane": "R_0009_0",
+      "capacity": 1,
+      "start_pos": 2.0,
+      "end_pos": 6.7,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_52_1",
+      "lane": "R_0009_0",
+      "capacity": 1,
+      "start_pos": 6.7,
+      "end_pos": 11.39,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_52_2",
+      "lane": "R_0009_0",
+      "capacity": 1,
+      "start_pos": 11.39,
+      "end_pos": 16.09,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_52_3",
+      "lane": "R_0009_0",
+      "capacity": 1,
+      "start_pos": 16.09,
+      "end_pos": 20.78,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_53_0",
+      "lane": "R_0010_0",
+      "capacity": 1,
+      "start_pos": 2.0,
+      "end_pos": 6.7,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_53_1",
+      "lane": "R_0010_0",
+      "capacity": 1,
+      "start_pos": 6.7,
+      "end_pos": 11.39,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_53_2",
+      "lane": "R_0010_0",
+      "capacity": 1,
+      "start_pos": 11.39,
+      "end_pos": 16.09,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_53_3",
+      "lane": "R_0010_0",
+      "capacity": 1,
+      "start_pos": 16.09,
+      "end_pos": 20.78,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_54_0",
+      "lane": "R_0011_0",
+      "capacity": 1,
+      "start_pos": 2.0,
+      "end_pos": 6.69,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_54_1",
+      "lane": "R_0011_0",
+      "capacity": 1,
+      "start_pos": 6.69,
+      "end_pos": 11.38,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_54_2",
+      "lane": "R_0011_0",
+      "capacity": 1,
+      "start_pos": 11.38,
+      "end_pos": 16.06,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_54_3",
+      "lane": "R_0011_0",
+      "capacity": 1,
+      "start_pos": 16.06,
+      "end_pos": 20.75,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_55_0",
+      "lane": "R_0012_0",
+      "capacity": 1,
+      "start_pos": 2.0,
+      "end_pos": 6.7,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_55_1",
+      "lane": "R_0012_0",
+      "capacity": 1,
+      "start_pos": 6.7,
+      "end_pos": 11.39,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_55_2",
+      "lane": "R_0012_0",
+      "capacity": 1,
+      "start_pos": 11.39,
+      "end_pos": 16.09,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_55_3",
+      "lane": "R_0012_0",
+      "capacity": 1,
+      "start_pos": 16.09,
+      "end_pos": 20.78,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_56_0",
+      "lane": "R_0013_0",
+      "capacity": 1,
+      "start_pos": 2.0,
+      "end_pos": 6.76,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_56_1",
+      "lane": "R_0013_0",
+      "capacity": 1,
+      "start_pos": 6.76,
+      "end_pos": 11.53,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_56_2",
+      "lane": "R_0013_0",
+      "capacity": 1,
+      "start_pos": 11.53,
+      "end_pos": 16.29,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_56_3",
+      "lane": "R_0013_0",
+      "capacity": 1,
+      "start_pos": 16.29,
+      "end_pos": 21.05,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_57_0",
+      "lane": "R_0014_0",
+      "capacity": 1,
+      "start_pos": 2.0,
+      "end_pos": 6.69,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_57_1",
+      "lane": "R_0014_0",
+      "capacity": 1,
+      "start_pos": 6.69,
+      "end_pos": 11.38,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_57_2",
+      "lane": "R_0014_0",
+      "capacity": 1,
+      "start_pos": 11.38,
+      "end_pos": 16.08,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_57_3",
+      "lane": "R_0014_0",
+      "capacity": 1,
+      "start_pos": 16.08,
+      "end_pos": 20.77,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_58_0",
+      "lane": "R_0015_0",
+      "capacity": 1,
+      "start_pos": 2.0,
+      "end_pos": 6.68,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_58_1",
+      "lane": "R_0015_0",
+      "capacity": 1,
+      "start_pos": 6.68,
+      "end_pos": 11.37,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_58_2",
+      "lane": "R_0015_0",
+      "capacity": 1,
+      "start_pos": 11.37,
+      "end_pos": 16.05,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_58_3",
+      "lane": "R_0015_0",
+      "capacity": 1,
+      "start_pos": 16.05,
+      "end_pos": 20.73,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_59_0",
+      "lane": "R_0016_0",
+      "capacity": 1,
+      "start_pos": 2.0,
+      "end_pos": 6.68,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_59_1",
+      "lane": "R_0016_0",
+      "capacity": 1,
+      "start_pos": 6.68,
+      "end_pos": 11.37,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_59_2",
+      "lane": "R_0016_0",
+      "capacity": 1,
+      "start_pos": 11.37,
+      "end_pos": 16.05,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_59_3",
+      "lane": "R_0016_0",
+      "capacity": 1,
+      "start_pos": 16.05,
+      "end_pos": 20.74,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_6_0",
+      "lane": "-R_0036#2_0",
+      "capacity": 1,
+      "start_pos": 2.0,
+      "end_pos": 6.89,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_6_1",
+      "lane": "-R_0036#2_0",
+      "capacity": 1,
+      "start_pos": 6.89,
+      "end_pos": 11.78,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_6_2",
+      "lane": "-R_0036#2_0",
+      "capacity": 1,
+      "start_pos": 11.78,
+      "end_pos": 16.67,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_6_3",
+      "lane": "-R_0036#2_0",
+      "capacity": 1,
+      "start_pos": 16.67,
+      "end_pos": 21.56,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_6_4",
+      "lane": "-R_0036#2_0",
+      "capacity": 1,
+      "start_pos": 21.56,
+      "end_pos": 26.44,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_6_5",
+      "lane": "-R_0036#2_0",
+      "capacity": 1,
+      "start_pos": 26.44,
+      "end_pos": 31.33,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_6_6",
+      "lane": "-R_0036#2_0",
+      "capacity": 1,
+      "start_pos": 31.33,
+      "end_pos": 36.22,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_6_7",
+      "lane": "-R_0036#2_0",
+      "capacity": 1,
+      "start_pos": 36.22,
+      "end_pos": 41.11,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_6_8",
+      "lane": "-R_0036#2_0",
+      "capacity": 1,
+      "start_pos": 41.11,
+      "end_pos": 46.0,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_60_0",
+      "lane": "R_0017_0",
+      "capacity": 1,
+      "start_pos": 2.0,
+      "end_pos": 6.69,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_60_1",
+      "lane": "R_0017_0",
+      "capacity": 1,
+      "start_pos": 6.69,
+      "end_pos": 11.38,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_60_2",
+      "lane": "R_0017_0",
+      "capacity": 1,
+      "start_pos": 11.38,
+      "end_pos": 16.07,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_60_3",
+      "lane": "R_0017_0",
+      "capacity": 1,
+      "start_pos": 16.07,
+      "end_pos": 20.76,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_61_0",
+      "lane": "R_0018_0",
+      "capacity": 1,
+      "start_pos": 2.0,
+      "end_pos": 6.67,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_61_1",
+      "lane": "R_0018_0",
+      "capacity": 1,
+      "start_pos": 6.67,
+      "end_pos": 11.35,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_61_2",
+      "lane": "R_0018_0",
+      "capacity": 1,
+      "start_pos": 11.35,
+      "end_pos": 16.02,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_61_3",
+      "lane": "R_0018_0",
+      "capacity": 1,
+      "start_pos": 16.02,
+      "end_pos": 20.7,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_62_0",
+      "lane": "R_0019_0",
+      "capacity": 1,
+      "start_pos": 2.0,
+      "end_pos": 6.68,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_62_1",
+      "lane": "R_0019_0",
+      "capacity": 1,
+      "start_pos": 6.68,
+      "end_pos": 11.36,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_62_2",
+      "lane": "R_0019_0",
+      "capacity": 1,
+      "start_pos": 11.36,
+      "end_pos": 16.04,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_62_3",
+      "lane": "R_0019_0",
+      "capacity": 1,
+      "start_pos": 16.04,
+      "end_pos": 20.72,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_63_0",
+      "lane": "R_0020_0",
+      "capacity": 1,
+      "start_pos": 2.0,
+      "end_pos": 6.67,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_63_1",
+      "lane": "R_0020_0",
+      "capacity": 1,
+      "start_pos": 6.67,
+      "end_pos": 11.33,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_63_2",
+      "lane": "R_0020_0",
+      "capacity": 1,
+      "start_pos": 11.33,
+      "end_pos": 16.0,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_63_3",
+      "lane": "R_0020_0",
+      "capacity": 1,
+      "start_pos": 16.0,
+      "end_pos": 20.66,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_64_0",
+      "lane": "R_0021_0",
+      "capacity": 1,
+      "start_pos": 2.0,
+      "end_pos": 6.67,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_64_1",
+      "lane": "R_0021_0",
+      "capacity": 1,
+      "start_pos": 6.67,
+      "end_pos": 11.34,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_64_2",
+      "lane": "R_0021_0",
+      "capacity": 1,
+      "start_pos": 11.34,
+      "end_pos": 16.0,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_64_3",
+      "lane": "R_0021_0",
+      "capacity": 1,
+      "start_pos": 16.0,
+      "end_pos": 20.67,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_65_0",
+      "lane": "R_0022_0",
+      "capacity": 1,
+      "start_pos": 2.0,
+      "end_pos": 6.79,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_65_1",
+      "lane": "R_0022_0",
+      "capacity": 1,
+      "start_pos": 6.79,
+      "end_pos": 11.59,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_65_2",
+      "lane": "R_0022_0",
+      "capacity": 1,
+      "start_pos": 11.59,
+      "end_pos": 16.38,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_65_3",
+      "lane": "R_0022_0",
+      "capacity": 1,
+      "start_pos": 16.38,
+      "end_pos": 21.18,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_67_0",
+      "lane": "R_0029_0",
+      "capacity": 1,
+      "start_pos": 2.0,
+      "end_pos": 6.69,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_67_1",
+      "lane": "R_0029_0",
+      "capacity": 1,
+      "start_pos": 6.69,
+      "end_pos": 11.38,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_67_2",
+      "lane": "R_0029_0",
+      "capacity": 1,
+      "start_pos": 11.38,
+      "end_pos": 16.07,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_67_3",
+      "lane": "R_0029_0",
+      "capacity": 1,
+      "start_pos": 16.07,
+      "end_pos": 20.76,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_7_0",
+      "lane": "-R_0038#0_0",
+      "capacity": 1,
+      "start_pos": 2.0,
+      "end_pos": 6.5,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_7_1",
+      "lane": "-R_0038#0_0",
+      "capacity": 1,
+      "start_pos": 6.5,
+      "end_pos": 11.0,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_7_2",
+      "lane": "-R_0038#0_0",
+      "capacity": 1,
+      "start_pos": 11.0,
+      "end_pos": 15.5,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_7_3",
+      "lane": "-R_0038#0_0",
+      "capacity": 1,
+      "start_pos": 15.5,
+      "end_pos": 20.0,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_7_4",
+      "lane": "-R_0038#0_0",
+      "capacity": 1,
+      "start_pos": 20.0,
+      "end_pos": 24.5,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_7_5",
+      "lane": "-R_0038#0_0",
+      "capacity": 1,
+      "start_pos": 24.5,
+      "end_pos": 29.0,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_7_6",
+      "lane": "-R_0038#0_0",
+      "capacity": 1,
+      "start_pos": 29.0,
+      "end_pos": 33.5,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_7_7",
+      "lane": "-R_0038#0_0",
+      "capacity": 1,
+      "start_pos": 33.5,
+      "end_pos": 38.0,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_74_0",
+      "lane": "R_0036#0_0",
+      "capacity": 1,
+      "start_pos": 2.0,
+      "end_pos": 6.5,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_74_1",
+      "lane": "R_0036#0_0",
+      "capacity": 1,
+      "start_pos": 6.5,
+      "end_pos": 11.0,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_74_2",
+      "lane": "R_0036#0_0",
+      "capacity": 1,
+      "start_pos": 11.0,
+      "end_pos": 15.5,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_74_3",
+      "lane": "R_0036#0_0",
+      "capacity": 1,
+      "start_pos": 15.5,
+      "end_pos": 20.0,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_74_4",
+      "lane": "R_0036#0_0",
+      "capacity": 1,
+      "start_pos": 20.0,
+      "end_pos": 24.5,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_74_5",
+      "lane": "R_0036#0_0",
+      "capacity": 1,
+      "start_pos": 24.5,
+      "end_pos": 29.0,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_74_6",
+      "lane": "R_0036#0_0",
+      "capacity": 1,
+      "start_pos": 29.0,
+      "end_pos": 33.5,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_74_7",
+      "lane": "R_0036#0_0",
+      "capacity": 1,
+      "start_pos": 33.5,
+      "end_pos": 38.0,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_75_0",
+      "lane": "R_0036#1_0",
+      "capacity": 1,
+      "start_pos": 2.0,
+      "end_pos": 7.2,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_75_1",
+      "lane": "R_0036#1_0",
+      "capacity": 1,
+      "start_pos": 7.2,
+      "end_pos": 12.4,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_75_2",
+      "lane": "R_0036#1_0",
+      "capacity": 1,
+      "start_pos": 12.4,
+      "end_pos": 17.6,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_75_3",
+      "lane": "R_0036#1_0",
+      "capacity": 1,
+      "start_pos": 17.6,
+      "end_pos": 22.8,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_75_4",
+      "lane": "R_0036#1_0",
+      "capacity": 1,
+      "start_pos": 22.8,
+      "end_pos": 28.0,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_76_0",
+      "lane": "R_0036#2_0",
+      "capacity": 1,
+      "start_pos": 2.0,
+      "end_pos": 6.89,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_76_1",
+      "lane": "R_0036#2_0",
+      "capacity": 1,
+      "start_pos": 6.89,
+      "end_pos": 11.78,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_76_2",
+      "lane": "R_0036#2_0",
+      "capacity": 1,
+      "start_pos": 11.78,
+      "end_pos": 16.67,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_76_3",
+      "lane": "R_0036#2_0",
+      "capacity": 1,
+      "start_pos": 16.67,
+      "end_pos": 21.56,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_76_4",
+      "lane": "R_0036#2_0",
+      "capacity": 1,
+      "start_pos": 21.56,
+      "end_pos": 26.44,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_76_5",
+      "lane": "R_0036#2_0",
+      "capacity": 1,
+      "start_pos": 26.44,
+      "end_pos": 31.33,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_76_6",
+      "lane": "R_0036#2_0",
+      "capacity": 1,
+      "start_pos": 31.33,
+      "end_pos": 36.22,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_76_7",
+      "lane": "R_0036#2_0",
+      "capacity": 1,
+      "start_pos": 36.22,
+      "end_pos": 41.11,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_76_8",
+      "lane": "R_0036#2_0",
+      "capacity": 1,
+      "start_pos": 41.11,
+      "end_pos": 46.0,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_77_0",
+      "lane": "R_0038#0_0",
+      "capacity": 1,
+      "start_pos": 2.0,
+      "end_pos": 6.5,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_77_1",
+      "lane": "R_0038#0_0",
+      "capacity": 1,
+      "start_pos": 6.5,
+      "end_pos": 11.0,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_77_2",
+      "lane": "R_0038#0_0",
+      "capacity": 1,
+      "start_pos": 11.0,
+      "end_pos": 15.5,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_77_3",
+      "lane": "R_0038#0_0",
+      "capacity": 1,
+      "start_pos": 15.5,
+      "end_pos": 20.0,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_77_4",
+      "lane": "R_0038#0_0",
+      "capacity": 1,
+      "start_pos": 20.0,
+      "end_pos": 24.5,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_77_5",
+      "lane": "R_0038#0_0",
+      "capacity": 1,
+      "start_pos": 24.5,
+      "end_pos": 29.0,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_77_6",
+      "lane": "R_0038#0_0",
+      "capacity": 1,
+      "start_pos": 29.0,
+      "end_pos": 33.5,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_77_7",
+      "lane": "R_0038#0_0",
+      "capacity": 1,
+      "start_pos": 33.5,
+      "end_pos": 38.0,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_78_0",
+      "lane": "R_0038#1_0",
+      "capacity": 1,
+      "start_pos": 2.0,
+      "end_pos": 7.2,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_78_1",
+      "lane": "R_0038#1_0",
+      "capacity": 1,
+      "start_pos": 7.2,
+      "end_pos": 12.4,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_78_2",
+      "lane": "R_0038#1_0",
+      "capacity": 1,
+      "start_pos": 12.4,
+      "end_pos": 17.6,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_78_3",
+      "lane": "R_0038#1_0",
+      "capacity": 1,
+      "start_pos": 17.6,
+      "end_pos": 22.8,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_78_4",
+      "lane": "R_0038#1_0",
+      "capacity": 1,
+      "start_pos": 22.8,
+      "end_pos": 28.0,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_79_0",
+      "lane": "R_0038#2_0",
+      "capacity": 1,
+      "start_pos": 2.0,
+      "end_pos": 7.2,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_79_1",
+      "lane": "R_0038#2_0",
+      "capacity": 1,
+      "start_pos": 7.2,
+      "end_pos": 12.4,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_79_2",
+      "lane": "R_0038#2_0",
+      "capacity": 1,
+      "start_pos": 12.4,
+      "end_pos": 17.6,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_79_3",
+      "lane": "R_0038#2_0",
+      "capacity": 1,
+      "start_pos": 17.6,
+      "end_pos": 22.8,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_79_4",
+      "lane": "R_0038#2_0",
+      "capacity": 1,
+      "start_pos": 22.8,
+      "end_pos": 28.0,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_8_0",
+      "lane": "-R_0038#1_0",
+      "capacity": 1,
+      "start_pos": 2.0,
+      "end_pos": 7.2,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_8_1",
+      "lane": "-R_0038#1_0",
+      "capacity": 1,
+      "start_pos": 7.2,
+      "end_pos": 12.4,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_8_2",
+      "lane": "-R_0038#1_0",
+      "capacity": 1,
+      "start_pos": 12.4,
+      "end_pos": 17.6,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_8_3",
+      "lane": "-R_0038#1_0",
+      "capacity": 1,
+      "start_pos": 17.6,
+      "end_pos": 22.8,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_8_4",
+      "lane": "-R_0038#1_0",
+      "capacity": 1,
+      "start_pos": 22.8,
+      "end_pos": 28.0,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_80_0",
+      "lane": "R_0039#0_0",
+      "capacity": 1,
+      "start_pos": 2.0,
+      "end_pos": 7.2,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_80_1",
+      "lane": "R_0039#0_0",
+      "capacity": 1,
+      "start_pos": 7.2,
+      "end_pos": 12.4,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_80_2",
+      "lane": "R_0039#0_0",
+      "capacity": 1,
+      "start_pos": 12.4,
+      "end_pos": 17.6,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_80_3",
+      "lane": "R_0039#0_0",
+      "capacity": 1,
+      "start_pos": 17.6,
+      "end_pos": 22.8,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_80_4",
+      "lane": "R_0039#0_0",
+      "capacity": 1,
+      "start_pos": 22.8,
+      "end_pos": 28.0,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_81_0",
+      "lane": "R_0039#1_0",
+      "capacity": 1,
+      "start_pos": 2.0,
+      "end_pos": 7.2,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_81_1",
+      "lane": "R_0039#1_0",
+      "capacity": 1,
+      "start_pos": 7.2,
+      "end_pos": 12.4,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_81_2",
+      "lane": "R_0039#1_0",
+      "capacity": 1,
+      "start_pos": 12.4,
+      "end_pos": 17.6,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_81_3",
+      "lane": "R_0039#1_0",
+      "capacity": 1,
+      "start_pos": 17.6,
+      "end_pos": 22.8,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_81_4",
+      "lane": "R_0039#1_0",
+      "capacity": 1,
+      "start_pos": 22.8,
+      "end_pos": 28.0,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_82_0",
+      "lane": "R_0039#2_0",
+      "capacity": 1,
+      "start_pos": 2.0,
+      "end_pos": 6.5,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_82_1",
+      "lane": "R_0039#2_0",
+      "capacity": 1,
+      "start_pos": 6.5,
+      "end_pos": 11.0,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_82_2",
+      "lane": "R_0039#2_0",
+      "capacity": 1,
+      "start_pos": 11.0,
+      "end_pos": 15.5,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_82_3",
+      "lane": "R_0039#2_0",
+      "capacity": 1,
+      "start_pos": 15.5,
+      "end_pos": 20.0,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_82_4",
+      "lane": "R_0039#2_0",
+      "capacity": 1,
+      "start_pos": 20.0,
+      "end_pos": 24.5,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_82_5",
+      "lane": "R_0039#2_0",
+      "capacity": 1,
+      "start_pos": 24.5,
+      "end_pos": 29.0,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_82_6",
+      "lane": "R_0039#2_0",
+      "capacity": 1,
+      "start_pos": 29.0,
+      "end_pos": 33.5,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_82_7",
+      "lane": "R_0039#2_0",
+      "capacity": 1,
+      "start_pos": 33.5,
+      "end_pos": 38.0,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_83_0",
+      "lane": "R_0040#0_0",
+      "capacity": 1,
+      "start_pos": 2.0,
+      "end_pos": 6.5,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_83_1",
+      "lane": "R_0040#0_0",
+      "capacity": 1,
+      "start_pos": 6.5,
+      "end_pos": 11.0,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_83_2",
+      "lane": "R_0040#0_0",
+      "capacity": 1,
+      "start_pos": 11.0,
+      "end_pos": 15.5,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_83_3",
+      "lane": "R_0040#0_0",
+      "capacity": 1,
+      "start_pos": 15.5,
+      "end_pos": 20.0,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_83_4",
+      "lane": "R_0040#0_0",
+      "capacity": 1,
+      "start_pos": 20.0,
+      "end_pos": 24.5,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_83_5",
+      "lane": "R_0040#0_0",
+      "capacity": 1,
+      "start_pos": 24.5,
+      "end_pos": 29.0,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_83_6",
+      "lane": "R_0040#0_0",
+      "capacity": 1,
+      "start_pos": 29.0,
+      "end_pos": 33.5,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_83_7",
+      "lane": "R_0040#0_0",
+      "capacity": 1,
+      "start_pos": 33.5,
+      "end_pos": 38.0,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_84_0",
+      "lane": "R_0040#1_0",
+      "capacity": 1,
+      "start_pos": 2.0,
+      "end_pos": 7.2,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_84_1",
+      "lane": "R_0040#1_0",
+      "capacity": 1,
+      "start_pos": 7.2,
+      "end_pos": 12.4,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_84_2",
+      "lane": "R_0040#1_0",
+      "capacity": 1,
+      "start_pos": 12.4,
+      "end_pos": 17.6,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_84_3",
+      "lane": "R_0040#1_0",
+      "capacity": 1,
+      "start_pos": 17.6,
+      "end_pos": 22.8,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_84_4",
+      "lane": "R_0040#1_0",
+      "capacity": 1,
+      "start_pos": 22.8,
+      "end_pos": 28.0,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_85_0",
+      "lane": "R_0040#2_0",
+      "capacity": 1,
+      "start_pos": 2.0,
+      "end_pos": 6.5,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_85_1",
+      "lane": "R_0040#2_0",
+      "capacity": 1,
+      "start_pos": 6.5,
+      "end_pos": 11.0,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_85_2",
+      "lane": "R_0040#2_0",
+      "capacity": 1,
+      "start_pos": 11.0,
+      "end_pos": 15.5,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_85_3",
+      "lane": "R_0040#2_0",
+      "capacity": 1,
+      "start_pos": 15.5,
+      "end_pos": 20.0,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_85_4",
+      "lane": "R_0040#2_0",
+      "capacity": 1,
+      "start_pos": 20.0,
+      "end_pos": 24.5,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_86_0",
+      "lane": "R_0041#0_0",
+      "capacity": 1,
+      "start_pos": 2.0,
+      "end_pos": 7.0,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_86_1",
+      "lane": "R_0041#0_0",
+      "capacity": 1,
+      "start_pos": 7.0,
+      "end_pos": 12.0,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_86_2",
+      "lane": "R_0041#0_0",
+      "capacity": 1,
+      "start_pos": 12.0,
+      "end_pos": 17.0,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_86_3",
+      "lane": "R_0041#0_0",
+      "capacity": 1,
+      "start_pos": 17.0,
+      "end_pos": 22.0,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_86_4",
+      "lane": "R_0041#0_0",
+      "capacity": 1,
+      "start_pos": 22.0,
+      "end_pos": 27.0,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_86_5",
+      "lane": "R_0041#0_0",
+      "capacity": 1,
+      "start_pos": 27.0,
+      "end_pos": 32.0,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_87_0",
+      "lane": "R_0041#1_0",
+      "capacity": 1,
+      "start_pos": 2.0,
+      "end_pos": 7.2,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_87_1",
+      "lane": "R_0041#1_0",
+      "capacity": 1,
+      "start_pos": 7.2,
+      "end_pos": 12.4,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_87_2",
+      "lane": "R_0041#1_0",
+      "capacity": 1,
+      "start_pos": 12.4,
+      "end_pos": 17.6,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_87_3",
+      "lane": "R_0041#1_0",
+      "capacity": 1,
+      "start_pos": 17.6,
+      "end_pos": 22.8,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_87_4",
+      "lane": "R_0041#1_0",
+      "capacity": 1,
+      "start_pos": 22.8,
+      "end_pos": 28.0,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_88_0",
+      "lane": "R_0041#2_0",
+      "capacity": 1,
+      "start_pos": 2.0,
+      "end_pos": 6.5,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_88_1",
+      "lane": "R_0041#2_0",
+      "capacity": 1,
+      "start_pos": 6.5,
+      "end_pos": 11.0,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_88_2",
+      "lane": "R_0041#2_0",
+      "capacity": 1,
+      "start_pos": 11.0,
+      "end_pos": 15.5,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_88_3",
+      "lane": "R_0041#2_0",
+      "capacity": 1,
+      "start_pos": 15.5,
+      "end_pos": 20.0,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_88_4",
+      "lane": "R_0041#2_0",
+      "capacity": 1,
+      "start_pos": 20.0,
+      "end_pos": 24.5,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_88_5",
+      "lane": "R_0041#2_0",
+      "capacity": 1,
+      "start_pos": 24.5,
+      "end_pos": 29.0,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_88_6",
+      "lane": "R_0041#2_0",
+      "capacity": 1,
+      "start_pos": 29.0,
+      "end_pos": 33.5,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_88_7",
+      "lane": "R_0041#2_0",
+      "capacity": 1,
+      "start_pos": 33.5,
+      "end_pos": 38.0,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_89_0",
+      "lane": "R_0042#0_0",
+      "capacity": 1,
+      "start_pos": 2.0,
+      "end_pos": 6.5,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_89_1",
+      "lane": "R_0042#0_0",
+      "capacity": 1,
+      "start_pos": 6.5,
+      "end_pos": 11.0,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_89_2",
+      "lane": "R_0042#0_0",
+      "capacity": 1,
+      "start_pos": 11.0,
+      "end_pos": 15.5,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_89_3",
+      "lane": "R_0042#0_0",
+      "capacity": 1,
+      "start_pos": 15.5,
+      "end_pos": 20.0,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_89_4",
+      "lane": "R_0042#0_0",
+      "capacity": 1,
+      "start_pos": 20.0,
+      "end_pos": 24.5,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_89_5",
+      "lane": "R_0042#0_0",
+      "capacity": 1,
+      "start_pos": 24.5,
+      "end_pos": 29.0,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_89_6",
+      "lane": "R_0042#0_0",
+      "capacity": 1,
+      "start_pos": 29.0,
+      "end_pos": 33.5,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_89_7",
+      "lane": "R_0042#0_0",
+      "capacity": 1,
+      "start_pos": 33.5,
+      "end_pos": 38.0,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_9_0",
+      "lane": "-R_0038#2_0",
+      "capacity": 1,
+      "start_pos": 2.0,
+      "end_pos": 7.2,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_9_1",
+      "lane": "-R_0038#2_0",
+      "capacity": 1,
+      "start_pos": 7.2,
+      "end_pos": 12.4,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_9_2",
+      "lane": "-R_0038#2_0",
+      "capacity": 1,
+      "start_pos": 12.4,
+      "end_pos": 17.6,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_9_3",
+      "lane": "-R_0038#2_0",
+      "capacity": 1,
+      "start_pos": 17.6,
+      "end_pos": 22.8,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_9_4",
+      "lane": "-R_0038#2_0",
+      "capacity": 1,
+      "start_pos": 22.8,
+      "end_pos": 28.0,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 270.0
+    },
+    {
+      "parking_area_id": "pa_90_0",
+      "lane": "R_0042#1_0",
+      "capacity": 1,
+      "start_pos": 2.0,
+      "end_pos": 7.2,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_90_1",
+      "lane": "R_0042#1_0",
+      "capacity": 1,
+      "start_pos": 7.2,
+      "end_pos": 12.4,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_90_2",
+      "lane": "R_0042#1_0",
+      "capacity": 1,
+      "start_pos": 12.4,
+      "end_pos": 17.6,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_90_3",
+      "lane": "R_0042#1_0",
+      "capacity": 1,
+      "start_pos": 17.6,
+      "end_pos": 22.8,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_90_4",
+      "lane": "R_0042#1_0",
+      "capacity": 1,
+      "start_pos": 22.8,
+      "end_pos": 28.0,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_91_0",
+      "lane": "R_0042#2_0",
+      "capacity": 1,
+      "start_pos": 2.0,
+      "end_pos": 6.75,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_91_1",
+      "lane": "R_0042#2_0",
+      "capacity": 1,
+      "start_pos": 6.75,
+      "end_pos": 11.5,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_91_2",
+      "lane": "R_0042#2_0",
+      "capacity": 1,
+      "start_pos": 11.5,
+      "end_pos": 16.25,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_91_3",
+      "lane": "R_0042#2_0",
+      "capacity": 1,
+      "start_pos": 16.25,
+      "end_pos": 21.0,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_91_4",
+      "lane": "R_0042#2_0",
+      "capacity": 1,
+      "start_pos": 21.0,
+      "end_pos": 25.75,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_91_5",
+      "lane": "R_0042#2_0",
+      "capacity": 1,
+      "start_pos": 25.75,
+      "end_pos": 30.5,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_91_6",
+      "lane": "R_0042#2_0",
+      "capacity": 1,
+      "start_pos": 30.5,
+      "end_pos": 35.25,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_91_7",
+      "lane": "R_0042#2_0",
+      "capacity": 1,
+      "start_pos": 35.25,
+      "end_pos": 40.0,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_92_0",
+      "lane": "R_0043#0_0",
+      "capacity": 1,
+      "start_pos": 2.0,
+      "end_pos": 6.78,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_92_1",
+      "lane": "R_0043#0_0",
+      "capacity": 1,
+      "start_pos": 6.78,
+      "end_pos": 11.56,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_92_2",
+      "lane": "R_0043#0_0",
+      "capacity": 1,
+      "start_pos": 11.56,
+      "end_pos": 16.33,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_92_3",
+      "lane": "R_0043#0_0",
+      "capacity": 1,
+      "start_pos": 16.33,
+      "end_pos": 21.11,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_92_4",
+      "lane": "R_0043#0_0",
+      "capacity": 1,
+      "start_pos": 21.11,
+      "end_pos": 25.89,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_92_5",
+      "lane": "R_0043#0_0",
+      "capacity": 1,
+      "start_pos": 25.89,
+      "end_pos": 30.67,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_92_6",
+      "lane": "R_0043#0_0",
+      "capacity": 1,
+      "start_pos": 30.67,
+      "end_pos": 35.44,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_92_7",
+      "lane": "R_0043#0_0",
+      "capacity": 1,
+      "start_pos": 35.44,
+      "end_pos": 40.22,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_92_8",
+      "lane": "R_0043#0_0",
+      "capacity": 1,
+      "start_pos": 40.22,
+      "end_pos": 45.0,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_93_0",
+      "lane": "R_0043#1_0",
+      "capacity": 1,
+      "start_pos": 2.0,
+      "end_pos": 7.2,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_93_1",
+      "lane": "R_0043#1_0",
+      "capacity": 1,
+      "start_pos": 7.2,
+      "end_pos": 12.4,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_93_2",
+      "lane": "R_0043#1_0",
+      "capacity": 1,
+      "start_pos": 12.4,
+      "end_pos": 17.6,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_93_3",
+      "lane": "R_0043#1_0",
+      "capacity": 1,
+      "start_pos": 17.6,
+      "end_pos": 22.8,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_93_4",
+      "lane": "R_0043#1_0",
+      "capacity": 1,
+      "start_pos": 22.8,
+      "end_pos": 28.0,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_94_0",
+      "lane": "R_0043#2_0",
+      "capacity": 1,
+      "start_pos": 2.0,
+      "end_pos": 6.5,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_94_1",
+      "lane": "R_0043#2_0",
+      "capacity": 1,
+      "start_pos": 6.5,
+      "end_pos": 11.0,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_94_2",
+      "lane": "R_0043#2_0",
+      "capacity": 1,
+      "start_pos": 11.0,
+      "end_pos": 15.5,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_94_3",
+      "lane": "R_0043#2_0",
+      "capacity": 1,
+      "start_pos": 15.5,
+      "end_pos": 20.0,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_94_4",
+      "lane": "R_0043#2_0",
+      "capacity": 1,
+      "start_pos": 20.0,
+      "end_pos": 24.5,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_94_5",
+      "lane": "R_0043#2_0",
+      "capacity": 1,
+      "start_pos": 24.5,
+      "end_pos": 29.0,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_94_6",
+      "lane": "R_0043#2_0",
+      "capacity": 1,
+      "start_pos": 29.0,
+      "end_pos": 33.5,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_94_7",
+      "lane": "R_0043#2_0",
+      "capacity": 1,
+      "start_pos": 33.5,
+      "end_pos": 38.0,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_95_0",
+      "lane": "R_0044_0",
+      "capacity": 1,
+      "start_pos": 2.0,
+      "end_pos": 6.7,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_95_1",
+      "lane": "R_0044_0",
+      "capacity": 1,
+      "start_pos": 6.7,
+      "end_pos": 11.4,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_95_2",
+      "lane": "R_0044_0",
+      "capacity": 1,
+      "start_pos": 11.4,
+      "end_pos": 16.1,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_95_3",
+      "lane": "R_0044_0",
+      "capacity": 1,
+      "start_pos": 16.1,
+      "end_pos": 20.8,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_96_0",
+      "lane": "R_0047_0",
+      "capacity": 1,
+      "start_pos": 2.0,
+      "end_pos": 6.9,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_96_1",
+      "lane": "R_0047_0",
+      "capacity": 1,
+      "start_pos": 6.9,
+      "end_pos": 11.8,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_96_2",
+      "lane": "R_0047_0",
+      "capacity": 1,
+      "start_pos": 11.8,
+      "end_pos": 16.7,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_96_3",
+      "lane": "R_0047_0",
+      "capacity": 1,
+      "start_pos": 16.7,
+      "end_pos": 21.59,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_96_4",
+      "lane": "R_0047_0",
+      "capacity": 1,
+      "start_pos": 21.59,
+      "end_pos": 26.49,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_96_5",
+      "lane": "R_0047_0",
+      "capacity": 1,
+      "start_pos": 26.49,
+      "end_pos": 31.39,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_96_6",
+      "lane": "R_0047_0",
+      "capacity": 1,
+      "start_pos": 31.39,
+      "end_pos": 36.29,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_96_7",
+      "lane": "R_0047_0",
+      "capacity": 1,
+      "start_pos": 36.29,
+      "end_pos": 41.19,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_97_0",
+      "lane": "R_0048_0",
+      "capacity": 1,
+      "start_pos": 2.0,
+      "end_pos": 6.71,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_97_1",
+      "lane": "R_0048_0",
+      "capacity": 1,
+      "start_pos": 6.71,
+      "end_pos": 11.41,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_97_2",
+      "lane": "R_0048_0",
+      "capacity": 1,
+      "start_pos": 11.41,
+      "end_pos": 16.12,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_97_3",
+      "lane": "R_0048_0",
+      "capacity": 1,
+      "start_pos": 16.12,
+      "end_pos": 20.83,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_98_0",
+      "lane": "R_0049_0",
+      "capacity": 1,
+      "start_pos": 2.0,
+      "end_pos": 6.71,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_98_1",
+      "lane": "R_0049_0",
+      "capacity": 1,
+      "start_pos": 6.71,
+      "end_pos": 11.43,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_98_2",
+      "lane": "R_0049_0",
+      "capacity": 1,
+      "start_pos": 11.43,
+      "end_pos": 16.14,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_98_3",
+      "lane": "R_0049_0",
+      "capacity": 1,
+      "start_pos": 16.14,
+      "end_pos": 20.86,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_99_0",
+      "lane": "R_0050_0",
+      "capacity": 1,
+      "start_pos": 2.0,
+      "end_pos": 6.7,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_99_1",
+      "lane": "R_0050_0",
+      "capacity": 1,
+      "start_pos": 6.7,
+      "end_pos": 11.39,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_99_2",
+      "lane": "R_0050_0",
+      "capacity": 1,
+      "start_pos": 11.39,
+      "end_pos": 16.09,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    },
+    {
+      "parking_area_id": "pa_99_3",
+      "lane": "R_0050_0",
+      "capacity": 1,
+      "start_pos": 16.09,
+      "end_pos": 20.79,
+      "width": 3.0,
+      "length": 5.0,
+      "angle": 90.0
+    }
+  ]
+}
