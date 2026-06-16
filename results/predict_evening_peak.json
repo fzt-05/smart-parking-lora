@@ -102,5 +102,5 @@
   ],
   "average_congestion_penalty": 0.1792,
   "used_fallback": false,
-  "raw_model_output": "==========\n未来12个时间步的可用车位数量预测为：[436.9, 424.0, 411.1, 398.1, 385.2, 372.3, 359.4, 346.5, 333.6, 320.7, 307.8, 294.9]。\n==========\nPrompt: 628 tokens, 678.870 tokens-per-sec\nGeneration: 100 tokens, 35.698 tokens-per-sec\nPeak memory: 7.166 GB"
+  "raw_model_output": "==========\n未来12个时间步的可用车位数量预测为：[436.9, 424.0, 411.1, 398.1, 385.2, 372.3, 359.4, 346.5, 333.6, 320.7, 307.8, 294.9]。\n==========\nPrompt: 628 tokens, 564.855 tokens-per-sec\nGeneration: 100 tokens, 35.775 tokens-per-sec\nPeak memory: 7.166 GB"
 }
